@@ -80,9 +80,8 @@ public class TracingWebDriver implements WebDriver, JavascriptExecutor,
               }
             }
             try {
-              for (LogEntry logEntry : driver.manage().logs().get("browser_").getAll()) {
+              for (LogEntry logEntry : driver.manage().logs().get("browser").getAll()) {
                 BROWSER_LOG.debug("" + logEntry);
-                System.out.println("XXX");
               }
             } catch (Throwable e) {
             }

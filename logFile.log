@@ -1,266 +1,789 @@
-654  [main] INFO  ru.greg3d.TestBase - >>> @Test SuiteSetup
-6559 [main] INFO  ru.greg3d.TracingWebDriver - Init tracer for Build info: version: '2.51.0', revision: '1af067dbcaedd7d2ab9af5151fc471d363d97193', time: '2016-02-05 11:20:57', driver org.openqa.selenium.support.events.EventFiringWebDriver
-6584 [main] INFO  ru.greg3d.TestBase - <<< @Test SuiteSetup
-6592 [main] INFO  ru.greg3d.TestBase - >>> @Test DoLoginTest
-6592 [main] DEBUG ru.greg3d.TracingWebDriver - get()
-6592 [main] DEBUG ru.greg3d.TracingWebDriver - get(http://localhost/php4dvd/)
-6908 [main] DEBUG ru.greg3d.TracingWebDriver - get(...) = null
-6908 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
-6908 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.id: username)
-7038 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> id: username]
-7075 [main] DEBUG ru.greg3d.events.WebEventListener - beforeChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> id: username]'
-7193 [main] DEBUG ru.greg3d.events.WebEventListener - afterChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> id: username]'
-7212 [main] DEBUG ru.greg3d.events.WebEventListener - beforeChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> id: username]'
-7271 [main] DEBUG ru.greg3d.events.WebEventListener - afterChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> id: username]'admin
-7271 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
-7271 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.name: password)
-7295 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: password]
-7835 [main] DEBUG ru.greg3d.events.WebEventListener - beforeChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: password]'
-7885 [main] DEBUG ru.greg3d.events.WebEventListener - afterChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: password]'
-7899 [main] DEBUG ru.greg3d.events.WebEventListener - beforeChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: password]'
-7945 [main] DEBUG ru.greg3d.events.WebEventListener - afterChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: password]'admin
-7945 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
-7945 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.name: submit)
-7963 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: submit]
-7963 [main] DEBUG ru.greg3d.events.WebEventListener - beforeClickOn '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: submit]'
-8453 [main] DEBUG ru.greg3d.events.WebEventListener - afterClickOn '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: submit]'
-8480 [main] INFO  ru.greg3d.TestBase - <<< @Test DoLoginTest
-8484 [main] INFO  ru.greg3d.TestBase - >>> @Test goHome
-8484 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
-8484 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.xpath: //a[contains(text(),'Home')])
-8512 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //a[contains(text(),'Home')]]
-8513 [main] DEBUG ru.greg3d.events.WebEventListener - beforeClickOn '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //a[contains(text(),'Home')]]'
-8975 [main] DEBUG ru.greg3d.events.WebEventListener - afterClickOn '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //a[contains(text(),'Home')]]'
-8999 [main] INFO  ru.greg3d.TestBase - <<< @Test goHome
-9001 [main] INFO  ru.greg3d.TestBase - >>> @Test addCorrectRecord
-9001 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
-9002 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.id: results)
-9038 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> id: results]
-9075 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
-9076 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.cssSelector: img[title='Add movie'])
-9148 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: img[title='Add movie']]
-9148 [main] DEBUG ru.greg3d.events.WebEventListener - beforeClickOn '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: img[title='Add movie']]'
-9632 [main] DEBUG ru.greg3d.events.WebEventListener - afterClickOn '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: img[title='Add movie']]'
-9660 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
-9660 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.name: name)
-9699 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: name]
-9745 [main] DEBUG ru.greg3d.events.WebEventListener - beforeChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: name]'
-9930 [main] DEBUG ru.greg3d.events.WebEventListener - afterChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: name]'new name_1455659263822
-9932 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
-9932 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.name: year)
-9964 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: year]
-9981 [main] DEBUG ru.greg3d.events.WebEventListener - beforeChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: year]'
-10040 [main] DEBUG ru.greg3d.events.WebEventListener - afterChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: year]'1959
-10041 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
-10041 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.name: rating)
-10067 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: rating]
-10092 [main] DEBUG ru.greg3d.events.WebEventListener - beforeChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: rating]'
-10146 [main] DEBUG ru.greg3d.events.WebEventListener - afterChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: rating]'2
-10146 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
-10146 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.name: duration)
-10170 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: duration]
-10190 [main] DEBUG ru.greg3d.events.WebEventListener - beforeChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: duration]'
-10248 [main] DEBUG ru.greg3d.events.WebEventListener - afterChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: duration]'62
-10248 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
-10248 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.cssSelector: img[title='Save'])
-10272 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: img[title='Save']]
-10273 [main] DEBUG ru.greg3d.events.WebEventListener - beforeClickOn '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: img[title='Save']]'
-10643 [main] DEBUG ru.greg3d.events.WebEventListener - afterClickOn '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: img[title='Save']]'
-10690 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
-10690 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.xpath: //a[contains(text(),'Home')])
-10724 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //a[contains(text(),'Home')]]
-10724 [main] DEBUG ru.greg3d.events.WebEventListener - beforeClickOn '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //a[contains(text(),'Home')]]'
-11207 [main] DEBUG ru.greg3d.events.WebEventListener - afterClickOn '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //a[contains(text(),'Home')]]'
-11286 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
-11286 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.id: results)
-11323 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> id: results]
-11347 [main] INFO  ru.greg3d.TestBase - <<< @Test addCorrectRecord
-11359 [main] INFO  ru.greg3d.TestBase - >>> @Test goHome
-11359 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
-11359 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.xpath: //a[contains(text(),'Home')])
-11407 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //a[contains(text(),'Home')]]
-11408 [main] DEBUG ru.greg3d.events.WebEventListener - beforeClickOn '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //a[contains(text(),'Home')]]'
-11542 [main] DEBUG ru.greg3d.events.WebEventListener - afterClickOn '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //a[contains(text(),'Home')]]'
-11956 [main] INFO  ru.greg3d.TestBase - <<< @Test goHome
-11956 [main] INFO  ru.greg3d.TestBase - >>> @Test addWrongRecord
-11956 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
-11956 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.cssSelector: img[title='Add movie'])
-11985 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: img[title='Add movie']]
-11985 [main] DEBUG ru.greg3d.events.WebEventListener - beforeClickOn '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: img[title='Add movie']]'
-12210 [main] DEBUG ru.greg3d.events.WebEventListener - afterClickOn '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: img[title='Add movie']]'
-12607 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
-12608 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.name: duration)
-12656 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: duration]
-12673 [main] DEBUG ru.greg3d.events.WebEventListener - beforeChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: duration]'
-12744 [main] DEBUG ru.greg3d.events.WebEventListener - afterChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: duration]'83
-12744 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
-12744 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.name: year)
-12768 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: year]
-12836 [main] DEBUG ru.greg3d.events.WebEventListener - beforeChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: year]'
-12967 [main] DEBUG ru.greg3d.events.WebEventListener - afterChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: year]'1991
-12968 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
-12968 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.name: rating)
-12991 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: rating]
-13008 [main] DEBUG ru.greg3d.events.WebEventListener - beforeChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: rating]'
-13151 [main] DEBUG ru.greg3d.events.WebEventListener - afterChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: rating]'8
-13152 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
-13152 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.cssSelector: img[title='Save'])
-13191 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: img[title='Save']]
-13191 [main] DEBUG ru.greg3d.events.WebEventListener - beforeClickOn '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: img[title='Save']]'
-13406 [main] DEBUG ru.greg3d.events.WebEventListener - afterClickOn '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: img[title='Save']]'
-13444 [main] INFO  ru.greg3d.TestBase - <<< @Test addWrongRecord
-13444 [main] INFO  ru.greg3d.TestBase - >>> @Test goHome
-13444 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
-13444 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.xpath: //a[contains(text(),'Home')])
-13482 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //a[contains(text(),'Home')]]
-13484 [main] DEBUG ru.greg3d.events.WebEventListener - beforeClickOn '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //a[contains(text(),'Home')]]'
-13976 [main] DEBUG ru.greg3d.events.WebEventListener - afterClickOn '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //a[contains(text(),'Home')]]'
-14056 [main] INFO  ru.greg3d.TestBase - <<< @Test goHome
-14057 [main] INFO  ru.greg3d.TestBase - >>> @Test addWrongRecord
-14057 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
-14057 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.cssSelector: img[title='Add movie'])
-14190 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: img[title='Add movie']]
-14190 [main] DEBUG ru.greg3d.events.WebEventListener - beforeClickOn '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: img[title='Add movie']]'
-14676 [main] DEBUG ru.greg3d.events.WebEventListener - afterClickOn '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: img[title='Add movie']]'
-14712 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
-14712 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.name: name)
-14765 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: name]
-14798 [main] DEBUG ru.greg3d.events.WebEventListener - beforeChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: name]'
-14966 [main] DEBUG ru.greg3d.events.WebEventListener - afterChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: name]'new name_1455659268883
-14966 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
-14966 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.name: duration)
-14990 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: duration]
-15006 [main] DEBUG ru.greg3d.events.WebEventListener - beforeChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: duration]'
-15062 [main] DEBUG ru.greg3d.events.WebEventListener - afterChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: duration]'79
-15062 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
-15062 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.name: rating)
-15089 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: rating]
-15110 [main] DEBUG ru.greg3d.events.WebEventListener - beforeChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: rating]'
-15198 [main] DEBUG ru.greg3d.events.WebEventListener - afterChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: rating]'6
-15198 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
-15198 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.cssSelector: img[title='Save'])
-15218 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: img[title='Save']]
-15218 [main] DEBUG ru.greg3d.events.WebEventListener - beforeClickOn '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: img[title='Save']]'
-15339 [main] DEBUG ru.greg3d.events.WebEventListener - afterClickOn '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: img[title='Save']]'
-15388 [main] INFO  ru.greg3d.TestBase - <<< @Test addWrongRecord
-15389 [main] INFO  ru.greg3d.TestBase - >>> @Test goHome
-15389 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
-15389 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.xpath: //a[contains(text(),'Home')])
-15413 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //a[contains(text(),'Home')]]
-15413 [main] DEBUG ru.greg3d.events.WebEventListener - beforeClickOn '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //a[contains(text(),'Home')]]'
-15976 [main] DEBUG ru.greg3d.events.WebEventListener - afterClickOn '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //a[contains(text(),'Home')]]'
-16064 [main] INFO  ru.greg3d.TestBase - <<< @Test goHome
-16064 [main] INFO  ru.greg3d.TestBase - >>> @Test deleteRecord
-16064 [main] DEBUG ru.greg3d.TracingWebDriver - findElements()
-16064 [main] DEBUG ru.greg3d.TracingWebDriver - findElements(By.xpath: //div[@id='results']/a)
-16103 [main] DEBUG ru.greg3d.TracingWebDriver - findElements(...) = [[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //div[@id='results']/a], [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //div[@id='results']/a], [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //div[@id='results']/a], [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //div[@id='results']/a], [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //div[@id='results']/a], [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //div[@id='results']/a], [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //div[@id='results']/a]]
-16103 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
-16103 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.xpath: //div[@id='results']/a/div)
-16151 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //div[@id='results']/a/div]
-16152 [main] DEBUG ru.greg3d.events.WebEventListener - beforeClickOn '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //div[@id='results']/a/div]'
-16499 [main] DEBUG ru.greg3d.events.WebEventListener - afterClickOn '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //div[@id='results']/a/div]'
-16525 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
-16526 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.cssSelector: img[title='Remove'])
-16545 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: img[title='Remove']]
-16546 [main] DEBUG ru.greg3d.events.WebEventListener - beforeClickOn '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: img[title='Remove']]'
-16742 [main] DEBUG ru.greg3d.events.WebEventListener - afterClickOn '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: img[title='Remove']]'
-16840 [main] ERROR ru.greg3d.events.WebEventListener - Error occurred: org.openqa.selenium.UnhandledAlertException: Modal dialog present: Are you sure you want to remove this?
+513  [main] INFO  ru.greg3d.TestBase - >>> @Test SuiteSetup
+5464 [main] INFO  ru.greg3d.TracingWebDriver - Init tracer for Build info: version: '2.51.0', revision: '1af067dbcaedd7d2ab9af5151fc471d363d97193', time: '2016-02-05 11:20:57', driver org.openqa.selenium.support.events.EventFiringWebDriver
+5488 [main] INFO  ru.greg3d.TestBase - <<< @Test SuiteSetup
+5504 [main] INFO  ru.greg3d.TestBase - >>> @Test DoLoginTest
+5504 [main] DEBUG ru.greg3d.TracingWebDriver - get()
+5504 [main] DEBUG ru.greg3d.TracingWebDriver - get(http://localhost/php4dvd/)
+5574 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] Failed to load native module at path '/usr/lib/firefox/components/libxpcomsample.so': (80004005) /usr/lib/firefox/components/libxpcomsample.so: невозможно открыть разделяемый объектный файл: Нет такого файла или каталога
+
+5574 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [WARNING] mutating the [[Prototype]] of an object will cause your code to run very slowly; instead create the object with the correct initial [[Prototype]] value using Object.create
+5574 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664734999	addons.manager	DEBUG	Application has been upgraded
+
+5575 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735012	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/addons/XPIProvider.jsm: ["XPIProvider"]
+
+5575 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735014	addons.manager	DEBUG	Loaded provider scope for resource://gre/modules/LightweightThemeManager.jsm: ["LightweightThemeManager"]
+
+5575 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735018	addons.xpi	DEBUG	startup
+
+5575 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735019	addons.xpi	INFO	Mapping online-accounts@lists.launchpad.net to /usr/lib/mozilla/extensions/{ec8030f7-c20a-464f-9b0e-13a3a9e97384}/online-accounts@lists.launchpad.net
+
+5575 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735020	addons.xpi	INFO	Mapping ubufox@ubuntu.com to /usr/share/mozilla/extensions/{ec8030f7-c20a-464f-9b0e-13a3a9e97384}/ubufox@ubuntu.com
+
+5575 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735020	addons.xpi	INFO	Mapping {2e1445b0-2682-11e1-bfc2-0800200c9a66} to /usr/share/mozilla/extensions/{ec8030f7-c20a-464f-9b0e-13a3a9e97384}/{2e1445b0-2682-11e1-bfc2-0800200c9a66}
+
+5575 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735020	addons.xpi	INFO	Mapping webapps-team@lists.launchpad.net to /usr/share/mozilla/extensions/{ec8030f7-c20a-464f-9b0e-13a3a9e97384}/webapps-team@lists.launchpad.net
+
+5576 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735021	addons.xpi	INFO	Mapping langpack-zh-CN@firefox.mozilla.org to /usr/lib/firefox/browser/extensions/langpack-zh-CN@firefox.mozilla.org.xpi
+
+5576 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735021	addons.xpi	INFO	Mapping langpack-en-ZA@firefox.mozilla.org to /usr/lib/firefox/browser/extensions/langpack-en-ZA@firefox.mozilla.org.xpi
+
+5576 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735022	addons.xpi	INFO	Mapping langpack-ru@firefox.mozilla.org to /usr/lib/firefox/browser/extensions/langpack-ru@firefox.mozilla.org.xpi
+
+5579 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735022	addons.xpi	INFO	Mapping langpack-de@firefox.mozilla.org to /usr/lib/firefox/browser/extensions/langpack-de@firefox.mozilla.org.xpi
+
+5579 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735022	addons.xpi	INFO	Mapping langpack-en-GB@firefox.mozilla.org to /usr/lib/firefox/browser/extensions/langpack-en-GB@firefox.mozilla.org.xpi
+
+5579 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735022	addons.xpi	INFO	Mapping {972ce4c6-7e08-4474-a285-3208198ce6fd} to /usr/lib/firefox/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}
+
+5579 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735023	addons.xpi	DEBUG	Ignoring file entry whose name is not a valid add-on ID: /tmp/anonymous2202014855917654837webdriver-profile/extensions/webdriver-staging
+
+5579 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735023	addons.xpi	INFO	Mapping fxdriver@googlecode.com to /tmp/anonymous2202014855917654837webdriver-profile/extensions/fxdriver@googlecode.com
+
+5580 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735023	addons.xpi	DEBUG	checkForChanges
+
+5580 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735043	addons.xpi	DEBUG	Directory state JSON differs: cache [] state [{"name":"app-system-local","addons":{"online-accounts@lists.launchpad.net":{"descriptor":"/usr/lib/mozilla/extensions/{ec8030f7-c20a-464f-9b0e-13a3a9e97384}/online-accounts@lists.launchpad.net","mtime":1408275333000,"rdfTime":1390969638000}}},{"name":"app-system-share","addons":{"ubufox@ubuntu.com":{"descriptor":"/usr/share/mozilla/extensions/{ec8030f7-c20a-464f-9b0e-13a3a9e97384}/ubufox@ubuntu.com","mtime":1408275332000,"rdfTime":1401829706000},"{2e1445b0-2682-11e1-bfc2-0800200c9a66}":{"descriptor":"/usr/share/mozilla/extensions/{ec8030f7-c20a-464f-9b0e-13a3a9e97384}/{2e1445b0-2682-11e1-bfc2-0800200c9a66}","mtime":1418569435000,"rdfTime":1407283796000},"webapps-team@lists.launchpad.net":{"descriptor":"/usr/share/mozilla/extensions/{ec8030f7-c20a-464f-9b0e-13a3a9e97384}/webapps-team@lists.launchpad.net","mtime":1408275333000,"rdfTime":1397665356000}}},{"name":"app-global","addons":{"langpack-zh-CN@firefox.mozilla.org":{"descriptor":"/usr/lib/firefox/browser/extensions/langpack-zh-CN@firefox.mozilla.org.xpi","mtime":1417088396000},"langpack-en-ZA@firefox.mozilla.org":{"descriptor":"/usr/lib/firefox/browser/extensions/langpack-en-ZA@firefox.mozilla.org.xpi","mtime":1417088279000},"langpack-ru@firefox.mozilla.org":{"descriptor":"/usr/lib/firefox/browser/extensions/langpack-ru@firefox.mozilla.org.xpi","mtime":1417088370000},"langpack-de@firefox.mozilla.org":{"descriptor":"/usr/lib/firefox/browser/extensions/langpack-de@firefox.mozilla.org.xpi","mtime":1417088275000},"langpack-en-GB@firefox.mozilla.org":{"descriptor":"/usr/lib/firefox/browser/extensions/langpack-en-GB@firefox.mozilla.org.xpi","mtime":1417088279000},"{972ce4c6-7e08-4474-a285-3208198ce6fd}":{"descriptor":"/usr/lib/firefox/browser/extensions/{972ce4c6-7e08-4474-a285-3208198ce6fd}","mtime":1418569285000,"rdfTime":1417087574000}}},{"name":"app-profile","addons":{"fxdriver@googlecode.com":{"descriptor":"/tmp/anonymous2202014855917654837webdriver-profile/extensions/fxdriver@googlecode.com","mtime":1455664734000,"rdfTime":1455664734000}}}]
+
+5580 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735048	addons.xpi-utils	DEBUG	Opening XPI database /tmp/anonymous2202014855917654837webdriver-profile/extensions.json
+
+5580 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735049	addons.xpi	DEBUG	New add-on fxdriver@googlecode.com installed in app-profile
+
+5580 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] Blocklist::_loadBlocklistFromFile: blocklist is disabled
+
+5580 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735065	addons.xpi-utils	DEBUG	Make addon app-profile:fxdriver@googlecode.com visible
+
+5580 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735067	DeferredSave.extensions.json	DEBUG	Save changes
+
+5580 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735068	DeferredSave.extensions.json	DEBUG	Save changes
+
+5581 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735068	addons.xpi	DEBUG	New add-on langpack-zh-CN@firefox.mozilla.org installed in app-global
+
+5581 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735078	addons.xpi-utils	DEBUG	Make addon app-global:langpack-zh-CN@firefox.mozilla.org visible
+
+5581 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735078	DeferredSave.extensions.json	DEBUG	Save changes
+
+5581 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735078	DeferredSave.extensions.json	DEBUG	Save changes
+
+5581 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735083	addons.xpi	DEBUG	New add-on langpack-en-ZA@firefox.mozilla.org installed in app-global
+
+5581 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735093	addons.xpi-utils	DEBUG	Make addon app-global:langpack-en-ZA@firefox.mozilla.org visible
+
+5581 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735093	DeferredSave.extensions.json	DEBUG	Save changes
+
+5581 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735093	DeferredSave.extensions.json	DEBUG	Save changes
+
+5582 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735094	addons.xpi	DEBUG	New add-on langpack-ru@firefox.mozilla.org installed in app-global
+
+5582 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735104	addons.xpi-utils	DEBUG	Make addon app-global:langpack-ru@firefox.mozilla.org visible
+
+5582 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735104	DeferredSave.extensions.json	DEBUG	Save changes
+
+5582 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735104	DeferredSave.extensions.json	DEBUG	Save changes
+
+5582 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735105	addons.xpi	DEBUG	New add-on langpack-de@firefox.mozilla.org installed in app-global
+
+5582 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735114	addons.xpi-utils	DEBUG	Make addon app-global:langpack-de@firefox.mozilla.org visible
+
+5582 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735114	DeferredSave.extensions.json	DEBUG	Save changes
+
+5582 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735114	DeferredSave.extensions.json	DEBUG	Save changes
+
+5582 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735115	addons.xpi	DEBUG	New add-on langpack-en-GB@firefox.mozilla.org installed in app-global
+
+5583 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735125	addons.xpi-utils	DEBUG	Make addon app-global:langpack-en-GB@firefox.mozilla.org visible
+
+5583 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735125	DeferredSave.extensions.json	DEBUG	Save changes
+
+5583 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735125	DeferredSave.extensions.json	DEBUG	Save changes
+
+5583 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735126	addons.xpi	DEBUG	New add-on {972ce4c6-7e08-4474-a285-3208198ce6fd} installed in app-global
+
+5583 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735128	addons.xpi-utils	DEBUG	Make addon app-global:{972ce4c6-7e08-4474-a285-3208198ce6fd} visible
+
+5583 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735128	DeferredSave.extensions.json	DEBUG	Save changes
+
+5583 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735128	DeferredSave.extensions.json	DEBUG	Save changes
+
+5583 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735128	addons.xpi	DEBUG	New add-on ubufox@ubuntu.com installed in app-system-share
+
+5584 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735131	addons.xpi-utils	DEBUG	Make addon app-system-share:ubufox@ubuntu.com visible
+
+5584 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735132	DeferredSave.extensions.json	DEBUG	Save changes
+
+5584 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735132	DeferredSave.extensions.json	DEBUG	Save changes
+
+5584 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735132	addons.xpi	DEBUG	New add-on {2e1445b0-2682-11e1-bfc2-0800200c9a66} installed in app-system-share
+
+5584 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735136	addons.xpi-utils	DEBUG	Make addon app-system-share:{2e1445b0-2682-11e1-bfc2-0800200c9a66} visible
+
+5584 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735136	DeferredSave.extensions.json	DEBUG	Save changes
+
+5584 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735136	DeferredSave.extensions.json	DEBUG	Save changes
+
+5584 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735136	addons.xpi	DEBUG	New add-on webapps-team@lists.launchpad.net installed in app-system-share
+
+5585 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735139	addons.xpi-utils	DEBUG	Make addon app-system-share:webapps-team@lists.launchpad.net visible
+
+5585 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735139	DeferredSave.extensions.json	DEBUG	Save changes
+
+5585 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735139	DeferredSave.extensions.json	DEBUG	Save changes
+
+5585 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735140	addons.xpi	DEBUG	Loading bootstrap scope from /usr/share/mozilla/extensions/{ec8030f7-c20a-464f-9b0e-13a3a9e97384}/webapps-team@lists.launchpad.net
+
+5585 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735145	addons.xpi	WARN	Add-on webapps-team@lists.launchpad.net is missing bootstrap method install
+
+5585 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735146	addons.xpi	DEBUG	New add-on online-accounts@lists.launchpad.net installed in app-system-local
+
+5585 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735150	addons.xpi-utils	DEBUG	Make addon app-system-local:online-accounts@lists.launchpad.net visible
+
+5585 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735150	DeferredSave.extensions.json	DEBUG	Save changes
+
+5585 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735150	DeferredSave.extensions.json	DEBUG	Save changes
+
+5586 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735167	addons.xpi	DEBUG	Updating database with changes to installed add-ons
+
+5586 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735167	addons.xpi-utils	DEBUG	Updating add-on states
+
+5586 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735168	addons.xpi-utils	DEBUG	Writing add-ons list
+
+5586 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735169	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/extensions/langpack-zh-CN@firefox.mozilla.org.xpi
+
+5586 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735170	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/extensions/langpack-en-ZA@firefox.mozilla.org.xpi
+
+5586 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735171	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/extensions/langpack-ru@firefox.mozilla.org.xpi
+
+5587 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735172	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/extensions/langpack-de@firefox.mozilla.org.xpi
+
+5587 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735173	addons.xpi	DEBUG	Registering manifest for /usr/lib/firefox/browser/extensions/langpack-en-GB@firefox.mozilla.org.xpi
+
+5587 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735174	addons.manager	DEBUG	Registering shutdown blocker for XPIProvider
+
+5587 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735175	addons.manager	DEBUG	Registering shutdown blocker for LightweightThemeManager
+
+5587 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735177	addons.manager	DEBUG	Registering shutdown blocker for OpenH264Provider
+
+5587 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664735177	addons.manager	DEBUG	Registering shutdown blocker for PluginProvider
+
+5587 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [WARNING] Trying to re-register CID '{e26dbdcd-d3ba-4ded-88c3-6cb07ee3e9e0}' already registered by file:///tmp/anonymous2202014855917654837webdriver-profile/extensions/fxdriver@googlecode.com/components/prompt-service.js.
+5587 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] Could not read chrome manifest 'file:///usr/lib/firefox/browser/extensions/%7B972ce4c6-7e08-4474-a285-3208198ce6fd%7D/chrome.manifest'.
+
+5588 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [WARNING] Неизвестное свойство «will-change».  Потерянное объявление.
+5588 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] Warning: unrecognized command line flag -foreground
+
+5591 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664736513	DeferredSave.extensions.json	DEBUG	Starting timer
+
+5596 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664736559	DeferredSave.extensions.json	DEBUG	Starting write
+
+5597 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664736947	DeferredSave.extensions.json	DEBUG	Write succeeded
+
+5597 [main] DEBUG Browser - [2016-02-17T02:18:57+0300] [INFO] 1455664736948	addons.xpi-utils	DEBUG	XPI Database saved, setting schema version preference to 16
+
+5597 [main] DEBUG Browser - [2016-02-17T02:18:58+0300] [INFO] 1455664738041	addons.repository	DEBUG	No addons.json found.
+
+5597 [main] DEBUG Browser - [2016-02-17T02:18:58+0300] [INFO] 1455664738042	DeferredSave.addons.json	DEBUG	Save changes
+
+5597 [main] DEBUG Browser - [2016-02-17T02:18:58+0300] [INFO] 1455664738045	DeferredSave.addons.json	DEBUG	Starting timer
+
+5597 [main] DEBUG Browser - [2016-02-17T02:18:58+0300] [INFO] 1455664738101	DeferredSave.addons.json	DEBUG	Starting write
+
+5598 [main] DEBUG Browser - [2016-02-17T02:18:58+0300] [INFO] 1455664738115	DeferredSave.addons.json	DEBUG	Write succeeded
+
+5598 [main] DEBUG Browser - [2016-02-17T02:18:58+0300] [INFO] 1455664738282	addons.manager	DEBUG	Registering shutdown blocker for <unnamed-provider>
+
+5882 [main] DEBUG ru.greg3d.TracingWebDriver - get(...) = null
+5882 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+5882 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.id: username)
+5911 [main] DEBUG Browser - [2016-02-17T02:18:58+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+5912 [main] DEBUG Browser - [2016-02-17T02:18:58+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+5912 [main] DEBUG Browser - [2016-02-17T02:18:58+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+5912 [main] DEBUG Browser - [2016-02-17T02:18:58+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+5916 [main] DEBUG Browser - [2016-02-17T02:18:58+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+5916 [main] DEBUG Browser - [2016-02-17T02:18:58+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+5916 [main] DEBUG Browser - [2016-02-17T02:18:58+0300] [WARNING] Ожидалось «none» или «URL», но найдено «mask(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+5917 [main] DEBUG Browser - [2016-02-17T02:18:58+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+5917 [main] DEBUG Browser - [2016-02-17T02:18:58+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+5917 [main] DEBUG Browser - [2016-02-17T02:18:58+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+5917 [main] DEBUG Browser - [2016-02-17T02:18:58+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+5918 [main] DEBUG Browser - [2016-02-17T02:18:58+0300] [WARNING] Неизвестное свойство «-moz-border-radius-topleft».  Потерянное объявление.
+5918 [main] DEBUG Browser - [2016-02-17T02:18:58+0300] [WARNING] Неизвестное свойство «-moz-border-radius-topright».  Потерянное объявление.
+5918 [main] DEBUG Browser - [2016-02-17T02:18:58+0300] [WARNING] Неизвестное свойство «-moz-border-radius-bottomleft».  Потерянное объявление.
+5918 [main] DEBUG Browser - [2016-02-17T02:18:58+0300] [WARNING] Неизвестное свойство «-moz-border-radius-bottomright».  Потерянное объявление.
+5918 [main] DEBUG Browser - [2016-02-17T02:18:58+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+5918 [main] DEBUG Browser - [2016-02-17T02:18:58+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+5918 [main] DEBUG Browser - [2016-02-17T02:18:58+0300] [WARNING] Неизвестное свойство «-moz-border-radius».  Потерянное объявление.
+5924 [main] DEBUG Browser - [2016-02-17T02:18:58+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+5924 [main] DEBUG Browser - [2016-02-17T02:18:58+0300] [WARNING] Ожидалось «none» или «URL», но найдено «chroma(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+5924 [main] DEBUG Browser - [2016-02-17T02:18:59+0300] [WARNING] Незащищённая (http://) страница содержит поля для ввода пароля. Это представляет собой угрозу безопасности, которая позволяет украсть учетные данные для входа пользователя.
+6019 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> id: username]
+6064 [main] DEBUG ru.greg3d.events.WebEventListener - beforeChangeValueOf: '[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> id: username]'
+6129 [main] DEBUG ru.greg3d.events.WebEventListener - afterChangeValueOf: '[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> id: username]'
+6141 [main] DEBUG ru.greg3d.events.WebEventListener - beforeChangeValueOf: '[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> id: username]'
+6195 [main] DEBUG ru.greg3d.events.WebEventListener - afterChangeValueOf: '[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> id: username]'admin
+6196 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+6196 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.name: password)
+6206 [main] DEBUG Browser - [2016-02-17T02:18:59+0300] [WARNING] Метод getAttributeNode() является устаревшим. Для его замены используйте метод getAttribute().
+6206 [main] DEBUG Browser - [2016-02-17T02:18:59+0300] [WARNING] Метод getPreventDefault() является устаревшим. Для его замены используйте метод defaultPrevented.
+6207 [main] DEBUG Browser - [2016-02-17T02:18:59+0300] [WARNING] Данный Key event недоступен при использовании некоторых раскладок клавиатуры: ключ=«c» модификаторы=«accel,alt»
+6221 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> name: password]
+6658 [main] DEBUG ru.greg3d.events.WebEventListener - beforeChangeValueOf: '[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> name: password]'
+6713 [main] DEBUG ru.greg3d.events.WebEventListener - afterChangeValueOf: '[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> name: password]'
+6726 [main] DEBUG ru.greg3d.events.WebEventListener - beforeChangeValueOf: '[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> name: password]'
+6777 [main] DEBUG ru.greg3d.events.WebEventListener - afterChangeValueOf: '[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> name: password]'admin
+6778 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+6778 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.name: submit)
+6795 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> name: submit]
+6795 [main] DEBUG ru.greg3d.events.WebEventListener - beforeClickOn '[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> name: submit]'
+7307 [main] DEBUG ru.greg3d.events.WebEventListener - afterClickOn '[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> name: submit]'
+7331 [main] DEBUG ru.greg3d.TracingWebDriver - getCurrentUrl()
+7331 [main] DEBUG ru.greg3d.TracingWebDriver - getCurrentUrl()
+7344 [main] DEBUG Browser - [2016-02-17T02:19:00+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+7344 [main] DEBUG Browser - [2016-02-17T02:19:00+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+7344 [main] DEBUG Browser - [2016-02-17T02:19:00+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+7344 [main] DEBUG Browser - [2016-02-17T02:19:00+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+7344 [main] DEBUG Browser - [2016-02-17T02:19:00+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+7344 [main] DEBUG Browser - [2016-02-17T02:19:00+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+7344 [main] DEBUG Browser - [2016-02-17T02:19:00+0300] [WARNING] Ожидалось «none» или «URL», но найдено «mask(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+7345 [main] DEBUG Browser - [2016-02-17T02:19:00+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+7345 [main] DEBUG Browser - [2016-02-17T02:19:00+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+7345 [main] DEBUG Browser - [2016-02-17T02:19:00+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+7345 [main] DEBUG Browser - [2016-02-17T02:19:00+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+7345 [main] DEBUG Browser - [2016-02-17T02:19:00+0300] [WARNING] Неизвестное свойство «-moz-border-radius-topleft».  Потерянное объявление.
+7345 [main] DEBUG Browser - [2016-02-17T02:19:00+0300] [WARNING] Неизвестное свойство «-moz-border-radius-topright».  Потерянное объявление.
+7345 [main] DEBUG Browser - [2016-02-17T02:19:00+0300] [WARNING] Неизвестное свойство «-moz-border-radius-bottomleft».  Потерянное объявление.
+7345 [main] DEBUG Browser - [2016-02-17T02:19:00+0300] [WARNING] Неизвестное свойство «-moz-border-radius-bottomright».  Потерянное объявление.
+7345 [main] DEBUG Browser - [2016-02-17T02:19:00+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+7345 [main] DEBUG Browser - [2016-02-17T02:19:00+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+7345 [main] DEBUG Browser - [2016-02-17T02:19:00+0300] [WARNING] Неизвестное свойство «-moz-border-radius».  Потерянное объявление.
+7345 [main] DEBUG Browser - [2016-02-17T02:19:00+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+7346 [main] DEBUG Browser - [2016-02-17T02:19:00+0300] [WARNING] Ожидалось «none» или «URL», но найдено «chroma(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+7346 [main] DEBUG Browser - [2016-02-17T02:19:00+0300] [WARNING] Метод getAttributeNode() является устаревшим. Для его замены используйте метод getAttribute().
+7354 [main] DEBUG ru.greg3d.TracingWebDriver - getCurrentUrl(...) = http://localhost/php4dvd/#!/sort/name%20asc/
+7357 [main] INFO  ru.greg3d.TestBase - <<< @Test DoLoginTest
+7361 [main] INFO  ru.greg3d.TestBase - >>> @Test goHome
+7361 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+7361 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.xpath: //a[contains(text(),'Home')])
+7396 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> xpath: //a[contains(text(),'Home')]]
+7400 [main] DEBUG ru.greg3d.events.WebEventListener - beforeClickOn '[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> xpath: //a[contains(text(),'Home')]]'
+7779 [main] DEBUG ru.greg3d.events.WebEventListener - afterClickOn '[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> xpath: //a[contains(text(),'Home')]]'
+7841 [main] INFO  ru.greg3d.TestBase - <<< @Test goHome
+7846 [main] INFO  ru.greg3d.TestBase - >>> @Test addCorrectRecord
+7846 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+7846 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.id: results)
+7859 [main] DEBUG Browser - [2016-02-17T02:19:00+0300] [WARNING] Метод getPreventDefault() является устаревшим. Для его замены используйте метод defaultPrevented.
+7859 [main] DEBUG Browser - [2016-02-17T02:19:00+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+7859 [main] DEBUG Browser - [2016-02-17T02:19:00+0300] [WARNING] Ожидалось «none» или «URL», но найдено «chroma(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+7859 [main] DEBUG Browser - [2016-02-17T02:19:00+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+7859 [main] DEBUG Browser - [2016-02-17T02:19:00+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+7859 [main] DEBUG Browser - [2016-02-17T02:19:00+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+7860 [main] DEBUG Browser - [2016-02-17T02:19:00+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+7860 [main] DEBUG Browser - [2016-02-17T02:19:00+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+7860 [main] DEBUG Browser - [2016-02-17T02:19:00+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+7860 [main] DEBUG Browser - [2016-02-17T02:19:00+0300] [WARNING] Ожидалось «none» или «URL», но найдено «mask(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+7860 [main] DEBUG Browser - [2016-02-17T02:19:00+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+7860 [main] DEBUG Browser - [2016-02-17T02:19:00+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+7860 [main] DEBUG Browser - [2016-02-17T02:19:00+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+7860 [main] DEBUG Browser - [2016-02-17T02:19:00+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+7860 [main] DEBUG Browser - [2016-02-17T02:19:00+0300] [WARNING] Неизвестное свойство «-moz-border-radius-topleft».  Потерянное объявление.
+7860 [main] DEBUG Browser - [2016-02-17T02:19:00+0300] [WARNING] Неизвестное свойство «-moz-border-radius-topright».  Потерянное объявление.
+7860 [main] DEBUG Browser - [2016-02-17T02:19:00+0300] [WARNING] Неизвестное свойство «-moz-border-radius-bottomleft».  Потерянное объявление.
+7860 [main] DEBUG Browser - [2016-02-17T02:19:00+0300] [WARNING] Неизвестное свойство «-moz-border-radius-bottomright».  Потерянное объявление.
+7861 [main] DEBUG Browser - [2016-02-17T02:19:00+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+7861 [main] DEBUG Browser - [2016-02-17T02:19:00+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+7861 [main] DEBUG Browser - [2016-02-17T02:19:00+0300] [WARNING] Неизвестное свойство «-moz-border-radius».  Потерянное объявление.
+7861 [main] DEBUG Browser - [2016-02-17T02:19:00+0300] [WARNING] Метод getAttributeNode() является устаревшим. Для его замены используйте метод getAttribute().
+7870 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> id: results]
+7884 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+7884 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.cssSelector: img[title='Add movie'])
+7901 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> css selector: img[title='Add movie']]
+7901 [main] DEBUG ru.greg3d.events.WebEventListener - beforeClickOn '[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> css selector: img[title='Add movie']]'
+8337 [main] DEBUG ru.greg3d.events.WebEventListener - afterClickOn '[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> css selector: img[title='Add movie']]'
+8363 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+8363 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.name: name)
+8377 [main] DEBUG Browser - [2016-02-17T02:19:01+0300] [WARNING] Метод getPreventDefault() является устаревшим. Для его замены используйте метод defaultPrevented.
+8377 [main] DEBUG Browser - [2016-02-17T02:19:01+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+8377 [main] DEBUG Browser - [2016-02-17T02:19:01+0300] [WARNING] Ожидалось «none» или «URL», но найдено «chroma(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+8377 [main] DEBUG Browser - [2016-02-17T02:19:01+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+8378 [main] DEBUG Browser - [2016-02-17T02:19:01+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+8378 [main] DEBUG Browser - [2016-02-17T02:19:01+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+8379 [main] DEBUG Browser - [2016-02-17T02:19:01+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+8379 [main] DEBUG Browser - [2016-02-17T02:19:01+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+8379 [main] DEBUG Browser - [2016-02-17T02:19:01+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+8379 [main] DEBUG Browser - [2016-02-17T02:19:01+0300] [WARNING] Ожидалось «none» или «URL», но найдено «mask(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+8379 [main] DEBUG Browser - [2016-02-17T02:19:01+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+8380 [main] DEBUG Browser - [2016-02-17T02:19:01+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+8380 [main] DEBUG Browser - [2016-02-17T02:19:01+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+8380 [main] DEBUG Browser - [2016-02-17T02:19:01+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+8381 [main] DEBUG Browser - [2016-02-17T02:19:01+0300] [WARNING] Неизвестное свойство «-moz-border-radius-topleft».  Потерянное объявление.
+8381 [main] DEBUG Browser - [2016-02-17T02:19:01+0300] [WARNING] Неизвестное свойство «-moz-border-radius-topright».  Потерянное объявление.
+8382 [main] DEBUG Browser - [2016-02-17T02:19:01+0300] [WARNING] Неизвестное свойство «-moz-border-radius-bottomleft».  Потерянное объявление.
+8382 [main] DEBUG Browser - [2016-02-17T02:19:01+0300] [WARNING] Неизвестное свойство «-moz-border-radius-bottomright».  Потерянное объявление.
+8383 [main] DEBUG Browser - [2016-02-17T02:19:01+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+8383 [main] DEBUG Browser - [2016-02-17T02:19:01+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+8383 [main] DEBUG Browser - [2016-02-17T02:19:01+0300] [WARNING] Неизвестное свойство «-moz-border-radius».  Потерянное объявление.
+8383 [main] DEBUG Browser - [2016-02-17T02:19:01+0300] [WARNING] Метод getPreventDefault() является устаревшим. Для его замены используйте метод defaultPrevented.
+8396 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> name: name]
+8424 [main] DEBUG ru.greg3d.events.WebEventListener - beforeChangeValueOf: '[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> name: name]'
+8556 [main] DEBUG ru.greg3d.events.WebEventListener - afterChangeValueOf: '[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> name: name]'new name_1455664741587
+8556 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+8556 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.name: year)
+8565 [main] DEBUG Browser - [2016-02-17T02:19:01+0300] [WARNING] Метод getAttributeNode() является устаревшим. Для его замены используйте метод getAttribute().
+8575 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> name: year]
+8588 [main] DEBUG ru.greg3d.events.WebEventListener - beforeChangeValueOf: '[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> name: year]'
+8644 [main] DEBUG ru.greg3d.events.WebEventListener - afterChangeValueOf: '[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> name: year]'1957
+8644 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+8644 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.name: rating)
+8662 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> name: rating]
+8676 [main] DEBUG ru.greg3d.events.WebEventListener - beforeChangeValueOf: '[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> name: rating]'
+8720 [main] DEBUG ru.greg3d.events.WebEventListener - afterChangeValueOf: '[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> name: rating]'9
+8720 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+8720 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.name: duration)
+8742 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> name: duration]
+8754 [main] DEBUG ru.greg3d.events.WebEventListener - beforeChangeValueOf: '[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> name: duration]'
+8801 [main] DEBUG ru.greg3d.events.WebEventListener - afterChangeValueOf: '[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> name: duration]'66
+8801 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+8801 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.cssSelector: img[title='Save'])
+8817 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> css selector: img[title='Save']]
+8817 [main] DEBUG ru.greg3d.events.WebEventListener - beforeClickOn '[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> css selector: img[title='Save']]'
+9138 [main] DEBUG ru.greg3d.events.WebEventListener - afterClickOn '[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> css selector: img[title='Save']]'
+9179 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+9179 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.xpath: //a[contains(text(),'Home')])
+9193 [main] DEBUG Browser - [2016-02-17T02:19:02+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+9193 [main] DEBUG Browser - [2016-02-17T02:19:02+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+9193 [main] DEBUG Browser - [2016-02-17T02:19:02+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+9193 [main] DEBUG Browser - [2016-02-17T02:19:02+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+9193 [main] DEBUG Browser - [2016-02-17T02:19:02+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+9193 [main] DEBUG Browser - [2016-02-17T02:19:02+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+9193 [main] DEBUG Browser - [2016-02-17T02:19:02+0300] [WARNING] Ожидалось «none» или «URL», но найдено «mask(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+9193 [main] DEBUG Browser - [2016-02-17T02:19:02+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+9194 [main] DEBUG Browser - [2016-02-17T02:19:02+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+9194 [main] DEBUG Browser - [2016-02-17T02:19:02+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+9194 [main] DEBUG Browser - [2016-02-17T02:19:02+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+9194 [main] DEBUG Browser - [2016-02-17T02:19:02+0300] [WARNING] Неизвестное свойство «-moz-border-radius-topleft».  Потерянное объявление.
+9194 [main] DEBUG Browser - [2016-02-17T02:19:02+0300] [WARNING] Неизвестное свойство «-moz-border-radius-topright».  Потерянное объявление.
+9194 [main] DEBUG Browser - [2016-02-17T02:19:02+0300] [WARNING] Неизвестное свойство «-moz-border-radius-bottomleft».  Потерянное объявление.
+9194 [main] DEBUG Browser - [2016-02-17T02:19:02+0300] [WARNING] Неизвестное свойство «-moz-border-radius-bottomright».  Потерянное объявление.
+9194 [main] DEBUG Browser - [2016-02-17T02:19:02+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+9194 [main] DEBUG Browser - [2016-02-17T02:19:02+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+9194 [main] DEBUG Browser - [2016-02-17T02:19:02+0300] [WARNING] Неизвестное свойство «-moz-border-radius».  Потерянное объявление.
+9194 [main] DEBUG Browser - [2016-02-17T02:19:02+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+9194 [main] DEBUG Browser - [2016-02-17T02:19:02+0300] [WARNING] Ожидалось «none» или «URL», но найдено «chroma(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+9206 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> xpath: //a[contains(text(),'Home')]]
+9206 [main] DEBUG ru.greg3d.events.WebEventListener - beforeClickOn '[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> xpath: //a[contains(text(),'Home')]]'
+9544 [main] DEBUG ru.greg3d.events.WebEventListener - afterClickOn '[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> xpath: //a[contains(text(),'Home')]]'
+9612 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+9613 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.id: results)
+9626 [main] DEBUG Browser - [2016-02-17T02:19:02+0300] [WARNING] Метод getPreventDefault() является устаревшим. Для его замены используйте метод defaultPrevented.
+9627 [main] DEBUG Browser - [2016-02-17T02:19:02+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+9627 [main] DEBUG Browser - [2016-02-17T02:19:02+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+9627 [main] DEBUG Browser - [2016-02-17T02:19:02+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+9627 [main] DEBUG Browser - [2016-02-17T02:19:02+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+9627 [main] DEBUG Browser - [2016-02-17T02:19:02+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+9627 [main] DEBUG Browser - [2016-02-17T02:19:02+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+9627 [main] DEBUG Browser - [2016-02-17T02:19:02+0300] [WARNING] Ожидалось «none» или «URL», но найдено «mask(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+9627 [main] DEBUG Browser - [2016-02-17T02:19:02+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+9627 [main] DEBUG Browser - [2016-02-17T02:19:02+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+9627 [main] DEBUG Browser - [2016-02-17T02:19:02+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+9627 [main] DEBUG Browser - [2016-02-17T02:19:02+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+9627 [main] DEBUG Browser - [2016-02-17T02:19:02+0300] [WARNING] Неизвестное свойство «-moz-border-radius-topleft».  Потерянное объявление.
+9627 [main] DEBUG Browser - [2016-02-17T02:19:02+0300] [WARNING] Неизвестное свойство «-moz-border-radius-topright».  Потерянное объявление.
+9627 [main] DEBUG Browser - [2016-02-17T02:19:02+0300] [WARNING] Неизвестное свойство «-moz-border-radius-bottomleft».  Потерянное объявление.
+9627 [main] DEBUG Browser - [2016-02-17T02:19:02+0300] [WARNING] Неизвестное свойство «-moz-border-radius-bottomright».  Потерянное объявление.
+9628 [main] DEBUG Browser - [2016-02-17T02:19:02+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+9628 [main] DEBUG Browser - [2016-02-17T02:19:02+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+9628 [main] DEBUG Browser - [2016-02-17T02:19:02+0300] [WARNING] Неизвестное свойство «-moz-border-radius».  Потерянное объявление.
+9628 [main] DEBUG Browser - [2016-02-17T02:19:02+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+9628 [main] DEBUG Browser - [2016-02-17T02:19:02+0300] [WARNING] Ожидалось «none» или «URL», но найдено «chroma(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+9628 [main] DEBUG Browser - [2016-02-17T02:19:02+0300] [WARNING] Метод getAttributeNode() является устаревшим. Для его замены используйте метод getAttribute().
+9638 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> id: results]
+9650 [main] INFO  ru.greg3d.TestBase - <<< @Test addCorrectRecord
+9653 [main] INFO  ru.greg3d.TestBase - >>> @Test goHome
+9653 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+9653 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.xpath: //a[contains(text(),'Home')])
+9673 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> xpath: //a[contains(text(),'Home')]]
+9673 [main] DEBUG ru.greg3d.events.WebEventListener - beforeClickOn '[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> xpath: //a[contains(text(),'Home')]]'
+10105 [main] DEBUG ru.greg3d.events.WebEventListener - afterClickOn '[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> xpath: //a[contains(text(),'Home')]]'
+10127 [main] INFO  ru.greg3d.TestBase - <<< @Test goHome
+10128 [main] INFO  ru.greg3d.TestBase - >>> @Test addWrongRecord
+10128 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+10128 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.cssSelector: img[title='Add movie'])
+10139 [main] DEBUG Browser - [2016-02-17T02:19:02+0300] [WARNING] Метод getPreventDefault() является устаревшим. Для его замены используйте метод defaultPrevented.
+10140 [main] DEBUG Browser - [2016-02-17T02:19:03+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+10140 [main] DEBUG Browser - [2016-02-17T02:19:03+0300] [WARNING] Ожидалось «none» или «URL», но найдено «chroma(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+10140 [main] DEBUG Browser - [2016-02-17T02:19:03+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+10140 [main] DEBUG Browser - [2016-02-17T02:19:03+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+10140 [main] DEBUG Browser - [2016-02-17T02:19:03+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+10140 [main] DEBUG Browser - [2016-02-17T02:19:03+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+10140 [main] DEBUG Browser - [2016-02-17T02:19:03+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+10140 [main] DEBUG Browser - [2016-02-17T02:19:03+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+10140 [main] DEBUG Browser - [2016-02-17T02:19:03+0300] [WARNING] Ожидалось «none» или «URL», но найдено «mask(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+10140 [main] DEBUG Browser - [2016-02-17T02:19:03+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+10141 [main] DEBUG Browser - [2016-02-17T02:19:03+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+10141 [main] DEBUG Browser - [2016-02-17T02:19:03+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+10141 [main] DEBUG Browser - [2016-02-17T02:19:03+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+10141 [main] DEBUG Browser - [2016-02-17T02:19:03+0300] [WARNING] Неизвестное свойство «-moz-border-radius-topleft».  Потерянное объявление.
+10141 [main] DEBUG Browser - [2016-02-17T02:19:03+0300] [WARNING] Неизвестное свойство «-moz-border-radius-topright».  Потерянное объявление.
+10141 [main] DEBUG Browser - [2016-02-17T02:19:03+0300] [WARNING] Неизвестное свойство «-moz-border-radius-bottomleft».  Потерянное объявление.
+10141 [main] DEBUG Browser - [2016-02-17T02:19:03+0300] [WARNING] Неизвестное свойство «-moz-border-radius-bottomright».  Потерянное объявление.
+10141 [main] DEBUG Browser - [2016-02-17T02:19:03+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+10141 [main] DEBUG Browser - [2016-02-17T02:19:03+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+10141 [main] DEBUG Browser - [2016-02-17T02:19:03+0300] [WARNING] Неизвестное свойство «-moz-border-radius».  Потерянное объявление.
+10141 [main] DEBUG Browser - [2016-02-17T02:19:03+0300] [WARNING] Метод getAttributeNode() является устаревшим. Для его замены используйте метод getAttribute().
+10150 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> css selector: img[title='Add movie']]
+10151 [main] DEBUG ru.greg3d.events.WebEventListener - beforeClickOn '[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> css selector: img[title='Add movie']]'
+10507 [main] DEBUG ru.greg3d.events.WebEventListener - afterClickOn '[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> css selector: img[title='Add movie']]'
+10550 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+10550 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.name: duration)
+10565 [main] DEBUG Browser - [2016-02-17T02:19:03+0300] [WARNING] Метод getPreventDefault() является устаревшим. Для его замены используйте метод defaultPrevented.
+10565 [main] DEBUG Browser - [2016-02-17T02:19:03+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+10565 [main] DEBUG Browser - [2016-02-17T02:19:03+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+10565 [main] DEBUG Browser - [2016-02-17T02:19:03+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+10566 [main] DEBUG Browser - [2016-02-17T02:19:03+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+10566 [main] DEBUG Browser - [2016-02-17T02:19:03+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+10566 [main] DEBUG Browser - [2016-02-17T02:19:03+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+10566 [main] DEBUG Browser - [2016-02-17T02:19:03+0300] [WARNING] Ожидалось «none» или «URL», но найдено «mask(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+10566 [main] DEBUG Browser - [2016-02-17T02:19:03+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+10567 [main] DEBUG Browser - [2016-02-17T02:19:03+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+10567 [main] DEBUG Browser - [2016-02-17T02:19:03+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+10567 [main] DEBUG Browser - [2016-02-17T02:19:03+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+10567 [main] DEBUG Browser - [2016-02-17T02:19:03+0300] [WARNING] Неизвестное свойство «-moz-border-radius-topleft».  Потерянное объявление.
+10567 [main] DEBUG Browser - [2016-02-17T02:19:03+0300] [WARNING] Неизвестное свойство «-moz-border-radius-topright».  Потерянное объявление.
+10567 [main] DEBUG Browser - [2016-02-17T02:19:03+0300] [WARNING] Неизвестное свойство «-moz-border-radius-bottomleft».  Потерянное объявление.
+10567 [main] DEBUG Browser - [2016-02-17T02:19:03+0300] [WARNING] Неизвестное свойство «-moz-border-radius-bottomright».  Потерянное объявление.
+10568 [main] DEBUG Browser - [2016-02-17T02:19:03+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+10568 [main] DEBUG Browser - [2016-02-17T02:19:03+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+10568 [main] DEBUG Browser - [2016-02-17T02:19:03+0300] [WARNING] Неизвестное свойство «-moz-border-radius».  Потерянное объявление.
+10568 [main] DEBUG Browser - [2016-02-17T02:19:03+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+10569 [main] DEBUG Browser - [2016-02-17T02:19:03+0300] [WARNING] Ожидалось «none» или «URL», но найдено «chroma(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+10569 [main] DEBUG Browser - [2016-02-17T02:19:03+0300] [WARNING] Метод getPreventDefault() является устаревшим. Для его замены используйте метод defaultPrevented.
+10580 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> name: duration]
+10596 [main] DEBUG ru.greg3d.events.WebEventListener - beforeChangeValueOf: '[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> name: duration]'
+10647 [main] DEBUG ru.greg3d.events.WebEventListener - afterChangeValueOf: '[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> name: duration]'87
+10647 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+10647 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.name: year)
+10656 [main] DEBUG Browser - [2016-02-17T02:19:03+0300] [WARNING] Метод getAttributeNode() является устаревшим. Для его замены используйте метод getAttribute().
+10667 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> name: year]
+10683 [main] DEBUG ru.greg3d.events.WebEventListener - beforeChangeValueOf: '[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> name: year]'
+10747 [main] DEBUG ru.greg3d.events.WebEventListener - afterChangeValueOf: '[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> name: year]'1989
+10747 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+10748 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.name: rating)
+10765 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> name: rating]
+10777 [main] DEBUG ru.greg3d.events.WebEventListener - beforeChangeValueOf: '[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> name: rating]'
+10822 [main] DEBUG ru.greg3d.events.WebEventListener - afterChangeValueOf: '[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> name: rating]'6
+10822 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+10822 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.cssSelector: img[title='Save'])
+10836 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> css selector: img[title='Save']]
+10836 [main] DEBUG ru.greg3d.events.WebEventListener - beforeClickOn '[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> css selector: img[title='Save']]'
+10931 [main] DEBUG ru.greg3d.events.WebEventListener - afterClickOn '[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> css selector: img[title='Save']]'
+10957 [main] INFO  ru.greg3d.TestBase - <<< @Test addWrongRecord
+10958 [main] INFO  ru.greg3d.TestBase - >>> @Test goHome
+10958 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+10958 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.xpath: //a[contains(text(),'Home')])
+10982 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> xpath: //a[contains(text(),'Home')]]
+10982 [main] DEBUG ru.greg3d.events.WebEventListener - beforeClickOn '[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> xpath: //a[contains(text(),'Home')]]'
+11392 [main] DEBUG ru.greg3d.events.WebEventListener - afterClickOn '[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> xpath: //a[contains(text(),'Home')]]'
+11413 [main] INFO  ru.greg3d.TestBase - <<< @Test goHome
+11414 [main] INFO  ru.greg3d.TestBase - >>> @Test addWrongRecord
+11415 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+11416 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.cssSelector: img[title='Add movie'])
+11427 [main] DEBUG Browser - [2016-02-17T02:19:04+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+11428 [main] DEBUG Browser - [2016-02-17T02:19:04+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+11428 [main] DEBUG Browser - [2016-02-17T02:19:04+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+11428 [main] DEBUG Browser - [2016-02-17T02:19:04+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+11429 [main] DEBUG Browser - [2016-02-17T02:19:04+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+11429 [main] DEBUG Browser - [2016-02-17T02:19:04+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+11429 [main] DEBUG Browser - [2016-02-17T02:19:04+0300] [WARNING] Ожидалось «none» или «URL», но найдено «mask(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+11429 [main] DEBUG Browser - [2016-02-17T02:19:04+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+11429 [main] DEBUG Browser - [2016-02-17T02:19:04+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+11429 [main] DEBUG Browser - [2016-02-17T02:19:04+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+11429 [main] DEBUG Browser - [2016-02-17T02:19:04+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+11429 [main] DEBUG Browser - [2016-02-17T02:19:04+0300] [WARNING] Неизвестное свойство «-moz-border-radius-topleft».  Потерянное объявление.
+11430 [main] DEBUG Browser - [2016-02-17T02:19:04+0300] [WARNING] Неизвестное свойство «-moz-border-radius-topright».  Потерянное объявление.
+11430 [main] DEBUG Browser - [2016-02-17T02:19:04+0300] [WARNING] Неизвестное свойство «-moz-border-radius-bottomleft».  Потерянное объявление.
+11430 [main] DEBUG Browser - [2016-02-17T02:19:04+0300] [WARNING] Неизвестное свойство «-moz-border-radius-bottomright».  Потерянное объявление.
+11430 [main] DEBUG Browser - [2016-02-17T02:19:04+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+11430 [main] DEBUG Browser - [2016-02-17T02:19:04+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+11430 [main] DEBUG Browser - [2016-02-17T02:19:04+0300] [WARNING] Неизвестное свойство «-moz-border-radius».  Потерянное объявление.
+11430 [main] DEBUG Browser - [2016-02-17T02:19:04+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+11430 [main] DEBUG Browser - [2016-02-17T02:19:04+0300] [WARNING] Ожидалось «none» или «URL», но найдено «chroma(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+11430 [main] DEBUG Browser - [2016-02-17T02:19:04+0300] [WARNING] Метод getAttributeNode() является устаревшим. Для его замены используйте метод getAttribute().
+11439 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> css selector: img[title='Add movie']]
+11439 [main] DEBUG ru.greg3d.events.WebEventListener - beforeClickOn '[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> css selector: img[title='Add movie']]'
+11794 [main] DEBUG ru.greg3d.events.WebEventListener - afterClickOn '[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> css selector: img[title='Add movie']]'
+11833 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+11833 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.name: name)
+11844 [main] DEBUG Browser - [2016-02-17T02:19:04+0300] [WARNING] Метод getPreventDefault() является устаревшим. Для его замены используйте метод defaultPrevented.
+11844 [main] DEBUG Browser - [2016-02-17T02:19:04+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+11844 [main] DEBUG Browser - [2016-02-17T02:19:04+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+11844 [main] DEBUG Browser - [2016-02-17T02:19:04+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+11844 [main] DEBUG Browser - [2016-02-17T02:19:04+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+11845 [main] DEBUG Browser - [2016-02-17T02:19:04+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+11845 [main] DEBUG Browser - [2016-02-17T02:19:04+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+11845 [main] DEBUG Browser - [2016-02-17T02:19:04+0300] [WARNING] Ожидалось «none» или «URL», но найдено «mask(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+11845 [main] DEBUG Browser - [2016-02-17T02:19:04+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+11846 [main] DEBUG Browser - [2016-02-17T02:19:04+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+11846 [main] DEBUG Browser - [2016-02-17T02:19:04+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+11846 [main] DEBUG Browser - [2016-02-17T02:19:04+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+11846 [main] DEBUG Browser - [2016-02-17T02:19:04+0300] [WARNING] Неизвестное свойство «-moz-border-radius-topleft».  Потерянное объявление.
+11846 [main] DEBUG Browser - [2016-02-17T02:19:04+0300] [WARNING] Неизвестное свойство «-moz-border-radius-topright».  Потерянное объявление.
+11846 [main] DEBUG Browser - [2016-02-17T02:19:04+0300] [WARNING] Неизвестное свойство «-moz-border-radius-bottomleft».  Потерянное объявление.
+11846 [main] DEBUG Browser - [2016-02-17T02:19:04+0300] [WARNING] Неизвестное свойство «-moz-border-radius-bottomright».  Потерянное объявление.
+11846 [main] DEBUG Browser - [2016-02-17T02:19:04+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+11846 [main] DEBUG Browser - [2016-02-17T02:19:04+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+11847 [main] DEBUG Browser - [2016-02-17T02:19:04+0300] [WARNING] Неизвестное свойство «-moz-border-radius».  Потерянное объявление.
+11847 [main] DEBUG Browser - [2016-02-17T02:19:04+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+11847 [main] DEBUG Browser - [2016-02-17T02:19:04+0300] [WARNING] Ожидалось «none» или «URL», но найдено «chroma(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+11847 [main] DEBUG Browser - [2016-02-17T02:19:04+0300] [WARNING] Метод getPreventDefault() является устаревшим. Для его замены используйте метод defaultPrevented.
+11858 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> name: name]
+11876 [main] DEBUG ru.greg3d.events.WebEventListener - beforeChangeValueOf: '[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> name: name]'
+11995 [main] DEBUG ru.greg3d.events.WebEventListener - afterChangeValueOf: '[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> name: name]'new name_1455664745046
+11996 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+11996 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.name: duration)
+12008 [main] DEBUG Browser - [2016-02-17T02:19:05+0300] [WARNING] Метод getAttributeNode() является устаревшим. Для его замены используйте метод getAttribute().
+12018 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> name: duration]
+12033 [main] DEBUG ru.greg3d.events.WebEventListener - beforeChangeValueOf: '[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> name: duration]'
+12133 [main] DEBUG ru.greg3d.events.WebEventListener - afterChangeValueOf: '[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> name: duration]'106
+12134 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+12134 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.name: rating)
+12153 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> name: rating]
+12205 [main] DEBUG ru.greg3d.events.WebEventListener - beforeChangeValueOf: '[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> name: rating]'
+12267 [main] DEBUG ru.greg3d.events.WebEventListener - afterChangeValueOf: '[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> name: rating]'0
+12267 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+12267 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.cssSelector: img[title='Save'])
+12287 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> css selector: img[title='Save']]
+12287 [main] DEBUG ru.greg3d.events.WebEventListener - beforeClickOn '[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> css selector: img[title='Save']]'
+12531 [main] DEBUG ru.greg3d.events.WebEventListener - afterClickOn '[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> css selector: img[title='Save']]'
+12561 [main] INFO  ru.greg3d.TestBase - <<< @Test addWrongRecord
+12562 [main] INFO  ru.greg3d.TestBase - >>> @Test goHome
+12562 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+12562 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.xpath: //a[contains(text(),'Home')])
+12571 [main] DEBUG Browser - [2016-02-17T02:19:05+0300] [INFO] A promise chain failed to handle a rejection. Did you forget to '.catch', or did you forget to 'return'?
+See https://developer.mozilla.org/Mozilla/JavaScript_code_modules/Promise.jsm/Promise
+
+Date: Wed Feb 17 2016 02:18:58 GMT+0300 (MSK)
+Full Message: loop is not enabled
+12585 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> xpath: //a[contains(text(),'Home')]]
+12586 [main] DEBUG ru.greg3d.events.WebEventListener - beforeClickOn '[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> xpath: //a[contains(text(),'Home')]]'
+13011 [main] DEBUG ru.greg3d.events.WebEventListener - afterClickOn '[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> xpath: //a[contains(text(),'Home')]]'
+13050 [main] INFO  ru.greg3d.TestBase - <<< @Test goHome
+13051 [main] INFO  ru.greg3d.TestBase - >>> @Test deleteRecord
+13051 [main] DEBUG ru.greg3d.TracingWebDriver - findElements()
+13051 [main] DEBUG ru.greg3d.TracingWebDriver - findElements(By.xpath: //div[@id='results']/a)
+13067 [main] DEBUG Browser - [2016-02-17T02:19:05+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+13067 [main] DEBUG Browser - [2016-02-17T02:19:05+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+13067 [main] DEBUG Browser - [2016-02-17T02:19:05+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+13067 [main] DEBUG Browser - [2016-02-17T02:19:05+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+13067 [main] DEBUG Browser - [2016-02-17T02:19:05+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+13067 [main] DEBUG Browser - [2016-02-17T02:19:05+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+13067 [main] DEBUG Browser - [2016-02-17T02:19:05+0300] [WARNING] Ожидалось «none» или «URL», но найдено «mask(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+13067 [main] DEBUG Browser - [2016-02-17T02:19:05+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+13067 [main] DEBUG Browser - [2016-02-17T02:19:05+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+13067 [main] DEBUG Browser - [2016-02-17T02:19:05+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+13068 [main] DEBUG Browser - [2016-02-17T02:19:05+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+13068 [main] DEBUG Browser - [2016-02-17T02:19:05+0300] [WARNING] Неизвестное свойство «-moz-border-radius-topleft».  Потерянное объявление.
+13068 [main] DEBUG Browser - [2016-02-17T02:19:05+0300] [WARNING] Неизвестное свойство «-moz-border-radius-topright».  Потерянное объявление.
+13068 [main] DEBUG Browser - [2016-02-17T02:19:05+0300] [WARNING] Неизвестное свойство «-moz-border-radius-bottomleft».  Потерянное объявление.
+13068 [main] DEBUG Browser - [2016-02-17T02:19:05+0300] [WARNING] Неизвестное свойство «-moz-border-radius-bottomright».  Потерянное объявление.
+13068 [main] DEBUG Browser - [2016-02-17T02:19:05+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+13068 [main] DEBUG Browser - [2016-02-17T02:19:05+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+13071 [main] DEBUG Browser - [2016-02-17T02:19:05+0300] [WARNING] Неизвестное свойство «-moz-border-radius».  Потерянное объявление.
+13071 [main] DEBUG Browser - [2016-02-17T02:19:05+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+13071 [main] DEBUG Browser - [2016-02-17T02:19:05+0300] [WARNING] Ожидалось «none» или «URL», но найдено «chroma(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+13072 [main] DEBUG Browser - [2016-02-17T02:19:06+0300] [WARNING] Метод getAttributeNode() является устаревшим. Для его замены используйте метод getAttribute().
+13100 [main] DEBUG ru.greg3d.TracingWebDriver - findElements(...) = [[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> xpath: //div[@id='results']/a], [[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> xpath: //div[@id='results']/a], [[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> xpath: //div[@id='results']/a], [[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> xpath: //div[@id='results']/a], [[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> xpath: //div[@id='results']/a], [[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> xpath: //div[@id='results']/a], [[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> xpath: //div[@id='results']/a]]
+13100 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+13100 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.xpath: //div[@id='results']/a/div)
+13144 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> xpath: //div[@id='results']/a/div]
+13144 [main] DEBUG ru.greg3d.events.WebEventListener - beforeClickOn '[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> xpath: //div[@id='results']/a/div]'
+13409 [main] DEBUG ru.greg3d.events.WebEventListener - afterClickOn '[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> xpath: //div[@id='results']/a/div]'
+13432 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+13432 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.cssSelector: img[title='Remove'])
+13444 [main] DEBUG Browser - [2016-02-17T02:19:06+0300] [WARNING] Метод getPreventDefault() является устаревшим. Для его замены используйте метод defaultPrevented.
+13444 [main] DEBUG Browser - [2016-02-17T02:19:06+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+13444 [main] DEBUG Browser - [2016-02-17T02:19:06+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+13444 [main] DEBUG Browser - [2016-02-17T02:19:06+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+13444 [main] DEBUG Browser - [2016-02-17T02:19:06+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+13444 [main] DEBUG Browser - [2016-02-17T02:19:06+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+13444 [main] DEBUG Browser - [2016-02-17T02:19:06+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+13444 [main] DEBUG Browser - [2016-02-17T02:19:06+0300] [WARNING] Ожидалось «none» или «URL», но найдено «mask(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+13444 [main] DEBUG Browser - [2016-02-17T02:19:06+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+13466 [main] DEBUG Browser - [2016-02-17T02:19:06+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+13466 [main] DEBUG Browser - [2016-02-17T02:19:06+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+13466 [main] DEBUG Browser - [2016-02-17T02:19:06+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+13466 [main] DEBUG Browser - [2016-02-17T02:19:06+0300] [WARNING] Неизвестное свойство «-moz-border-radius-topleft».  Потерянное объявление.
+13466 [main] DEBUG Browser - [2016-02-17T02:19:06+0300] [WARNING] Неизвестное свойство «-moz-border-radius-topright».  Потерянное объявление.
+13466 [main] DEBUG Browser - [2016-02-17T02:19:06+0300] [WARNING] Неизвестное свойство «-moz-border-radius-bottomleft».  Потерянное объявление.
+13466 [main] DEBUG Browser - [2016-02-17T02:19:06+0300] [WARNING] Неизвестное свойство «-moz-border-radius-bottomright».  Потерянное объявление.
+13466 [main] DEBUG Browser - [2016-02-17T02:19:06+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+13466 [main] DEBUG Browser - [2016-02-17T02:19:06+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+13466 [main] DEBUG Browser - [2016-02-17T02:19:06+0300] [WARNING] Неизвестное свойство «-moz-border-radius».  Потерянное объявление.
+13466 [main] DEBUG Browser - [2016-02-17T02:19:06+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+13466 [main] DEBUG Browser - [2016-02-17T02:19:06+0300] [WARNING] Ожидалось «none» или «URL», но найдено «chroma(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+13477 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> css selector: img[title='Remove']]
+13481 [main] DEBUG ru.greg3d.events.WebEventListener - beforeClickOn '[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> css selector: img[title='Remove']]'
+13650 [main] DEBUG ru.greg3d.events.WebEventListener - afterClickOn '[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> css selector: img[title='Remove']]'
+13774 [main] ERROR ru.greg3d.events.WebEventListener - Error occurred: org.openqa.selenium.UnhandledAlertException: Modal dialog present: Are you sure you want to remove this?
 Build info: version: '2.51.0', revision: '1af067dbcaedd7d2ab9af5151fc471d363d97193', time: '2016-02-05 11:20:57'
 System info: host: 'Home-Ubuntu', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'i386', os.version: '3.13.0-43-generic', java.version: '1.8.0_60'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=34.0, platform=LINUX, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 780f3796-6eb8-47ff-ba9e-4bcd0158e46e
-16864 [main] ERROR ru.greg3d.events.WebEventListener - Error occurred: org.openqa.selenium.UnhandledAlertException: Modal dialog present: Are you sure you want to remove this?
+Session ID: 9c369724-4394-4531-a98c-169869af330c
+13799 [main] ERROR ru.greg3d.events.WebEventListener - Error occurred: org.openqa.selenium.UnhandledAlertException: Modal dialog present: Are you sure you want to remove this?
 Build info: version: '2.51.0', revision: '1af067dbcaedd7d2ab9af5151fc471d363d97193', time: '2016-02-05 11:20:57'
 System info: host: 'Home-Ubuntu', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'i386', os.version: '3.13.0-43-generic', java.version: '1.8.0_60'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=34.0, platform=LINUX, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
-Session ID: 780f3796-6eb8-47ff-ba9e-4bcd0158e46e
-16864 [main] DEBUG ru.greg3d.TracingWebDriver - switchTo()
-16873 [main] DEBUG ru.greg3d.TracingWebDriver - switchTo(...) = org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringTargetLocator@1d0e481
-16954 [main] DEBUG ru.greg3d.Lesson2TestCoplect - closeAlertAndGetItsText -Are you sure you want to remove this?
-16954 [main] DEBUG ru.greg3d.TracingWebDriver - executeScript()
-16954 [main] DEBUG ru.greg3d.TracingWebDriver - executeScript(return $.active, ...)
-17530 [main] DEBUG ru.greg3d.TracingWebDriver - executeScript(...) = 0
-17530 [main] DEBUG ru.greg3d.TracingWebDriver - executeScript()
-17530 [main] DEBUG ru.greg3d.TracingWebDriver - executeScript(return $.active, ...)
-17568 [main] DEBUG ru.greg3d.TracingWebDriver - executeScript(...) = 0
-17568 [main] DEBUG ru.greg3d.TracingWebDriver - findElements()
-17568 [main] DEBUG ru.greg3d.TracingWebDriver - findElements(By.xpath: //div[@id='results']/a)
-17630 [main] DEBUG ru.greg3d.TracingWebDriver - findElements(...) = [[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //div[@id='results']/a], [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //div[@id='results']/a], [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //div[@id='results']/a], [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //div[@id='results']/a], [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //div[@id='results']/a], [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //div[@id='results']/a]]
-17630 [main] INFO  ru.greg3d.Lesson2TestCoplect - Done
-17631 [main] INFO  ru.greg3d.TestBase - <<< @Test deleteRecord
-17636 [main] INFO  ru.greg3d.TestBase - >>> @Test goHome
-17636 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
-17636 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.xpath: //a[contains(text(),'Home')])
-17670 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //a[contains(text(),'Home')]]
-17670 [main] DEBUG ru.greg3d.events.WebEventListener - beforeClickOn '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //a[contains(text(),'Home')]]'
-17869 [main] DEBUG ru.greg3d.events.WebEventListener - afterClickOn '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //a[contains(text(),'Home')]]'
-18301 [main] INFO  ru.greg3d.TestBase - <<< @Test goHome
-18301 [main] INFO  ru.greg3d.TestBase - >>> @Test testSearchFirstRecord
-18303 [main] DEBUG ru.greg3d.TracingWebDriver - findElements()
-18303 [main] DEBUG ru.greg3d.TracingWebDriver - findElements(By.cssSelector: .title)
-18340 [main] DEBUG ru.greg3d.TracingWebDriver - findElements(...) = [[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: .title], [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: .title], [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: .title], [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: .title], [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: .title], [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: .title]]
-18341 [main] DEBUG ru.greg3d.TracingWebDriver - findElements()
-18341 [main] DEBUG ru.greg3d.TracingWebDriver - findElements(By.cssSelector: .title)
-18364 [main] DEBUG ru.greg3d.TracingWebDriver - findElements(...) = [[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: .title], [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: .title], [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: .title], [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: .title], [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: .title], [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: .title]]
-18410 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
-18410 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.id: q)
-18430 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> id: q]
-18447 [main] DEBUG ru.greg3d.events.WebEventListener - beforeChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> id: q]'
-18497 [main] DEBUG ru.greg3d.events.WebEventListener - afterChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> id: q]'
-18498 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
-18498 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.id: q)
-18515 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> id: q]
-18542 [main] DEBUG ru.greg3d.events.WebEventListener - beforeChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> id: q]'
-18660 [main] DEBUG ru.greg3d.events.WebEventListener - afterChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> id: q]'new name_1455659158175
-18660 [main] DEBUG ru.greg3d.TracingWebDriver - executeScript()
-18660 [main] DEBUG ru.greg3d.TracingWebDriver - executeScript(return $.active, ...)
-18716 [main] DEBUG ru.greg3d.TracingWebDriver - executeScript(...) = 0
-18717 [main] DEBUG ru.greg3d.TracingWebDriver - executeScript()
-18717 [main] DEBUG ru.greg3d.TracingWebDriver - executeScript(return $.active, ...)
-18745 [main] DEBUG ru.greg3d.TracingWebDriver - executeScript(...) = 0
-18745 [main] DEBUG ru.greg3d.TracingWebDriver - findElements()
-18745 [main] DEBUG ru.greg3d.TracingWebDriver - findElements(By.cssSelector: .title)
-18773 [main] DEBUG ru.greg3d.TracingWebDriver - findElements(...) = [[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: .title]]
-18773 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
-18773 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.cssSelector: .title)
-18796 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: .title]
-18815 [main] INFO  ru.greg3d.Lesson2TestCoplect - Done
-18816 [main] INFO  ru.greg3d.TestBase - <<< @Test testSearchFirstRecord
-18816 [main] INFO  ru.greg3d.TestBase - >>> @Test goHome
-18819 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
-18819 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.xpath: //a[contains(text(),'Home')])
-18855 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //a[contains(text(),'Home')]]
-18856 [main] DEBUG ru.greg3d.events.WebEventListener - beforeClickOn '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //a[contains(text(),'Home')]]'
-19363 [main] DEBUG ru.greg3d.events.WebEventListener - afterClickOn '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //a[contains(text(),'Home')]]'
-19408 [main] INFO  ru.greg3d.TestBase - <<< @Test goHome
-19408 [main] INFO  ru.greg3d.TestBase - >>> @Test testUnSearchFirstRecord
-19408 [main] DEBUG ru.greg3d.TracingWebDriver - findElements()
-19408 [main] DEBUG ru.greg3d.TracingWebDriver - findElements(By.cssSelector: .title)
-19429 [main] DEBUG ru.greg3d.TracingWebDriver - findElements(...) = [[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: .title]]
-19429 [main] DEBUG ru.greg3d.TracingWebDriver - findElements()
-19430 [main] DEBUG ru.greg3d.TracingWebDriver - findElements(By.cssSelector: .title)
-19460 [main] DEBUG ru.greg3d.TracingWebDriver - findElements(...) = [[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: .title]]
-19476 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
-19476 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.id: q)
-19535 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> id: q]
-19548 [main] DEBUG ru.greg3d.events.WebEventListener - beforeChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> id: q]'
-19607 [main] DEBUG ru.greg3d.events.WebEventListener - afterChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> id: q]'new name_1455659158175
-19609 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
-19610 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.id: q)
-19630 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> id: q]
-19651 [main] DEBUG ru.greg3d.events.WebEventListener - beforeChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> id: q]'
-19742 [main] DEBUG ru.greg3d.events.WebEventListener - afterChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> id: q]'5718519565541_eman wen
-19743 [main] DEBUG ru.greg3d.TracingWebDriver - executeScript()
-19743 [main] DEBUG ru.greg3d.TracingWebDriver - executeScript(return $.active, ...)
-19794 [main] DEBUG ru.greg3d.TracingWebDriver - executeScript(...) = 0
-19794 [main] DEBUG ru.greg3d.TracingWebDriver - executeScript()
-19794 [main] DEBUG ru.greg3d.TracingWebDriver - executeScript(return $.active, ...)
-19824 [main] DEBUG ru.greg3d.TracingWebDriver - executeScript(...) = 0
-19824 [main] DEBUG ru.greg3d.TracingWebDriver - findElements()
-19824 [main] DEBUG ru.greg3d.TracingWebDriver - findElements(By.cssSelector: .title)
-19843 [main] DEBUG ru.greg3d.TracingWebDriver - findElements(...) = []
-19844 [main] INFO  ru.greg3d.TestBase - <<< @Test testUnSearchFirstRecord
-19873 [main] INFO  ru.greg3d.TestBase - >>> @Test tearDown
-20014 [main] INFO  ru.greg3d.TestBase - <<< @Test tearDown
+Session ID: 9c369724-4394-4531-a98c-169869af330c
+13799 [main] DEBUG ru.greg3d.TracingWebDriver - switchTo()
+13809 [main] DEBUG Browser - [2016-02-17T02:19:06+0300] [WARNING] Метод getPreventDefault() является устаревшим. Для его замены используйте метод defaultPrevented.
+13811 [main] DEBUG ru.greg3d.TracingWebDriver - switchTo(...) = org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringTargetLocator@17f1eb
+13912 [main] DEBUG ru.greg3d.Lesson2TestComplect - closeAlertAndGetItsText -Are you sure you want to remove this?
+13912 [main] DEBUG ru.greg3d.TracingWebDriver - executeScript()
+13912 [main] DEBUG ru.greg3d.TracingWebDriver - executeScript(return $.active, ...)
+14520 [main] DEBUG ru.greg3d.TracingWebDriver - executeScript(...) = 0
+14521 [main] DEBUG ru.greg3d.TracingWebDriver - executeScript()
+14521 [main] DEBUG ru.greg3d.TracingWebDriver - executeScript(return $.active, ...)
+14536 [main] DEBUG Browser - [2016-02-17T02:19:07+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+14537 [main] DEBUG Browser - [2016-02-17T02:19:07+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+14537 [main] DEBUG Browser - [2016-02-17T02:19:07+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+14537 [main] DEBUG Browser - [2016-02-17T02:19:07+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+14537 [main] DEBUG Browser - [2016-02-17T02:19:07+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+14537 [main] DEBUG Browser - [2016-02-17T02:19:07+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+14537 [main] DEBUG Browser - [2016-02-17T02:19:07+0300] [WARNING] Ожидалось «none» или «URL», но найдено «mask(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+14537 [main] DEBUG Browser - [2016-02-17T02:19:07+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+14538 [main] DEBUG Browser - [2016-02-17T02:19:07+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+14538 [main] DEBUG Browser - [2016-02-17T02:19:07+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+14538 [main] DEBUG Browser - [2016-02-17T02:19:07+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+14538 [main] DEBUG Browser - [2016-02-17T02:19:07+0300] [WARNING] Неизвестное свойство «-moz-border-radius-topleft».  Потерянное объявление.
+14538 [main] DEBUG Browser - [2016-02-17T02:19:07+0300] [WARNING] Неизвестное свойство «-moz-border-radius-topright».  Потерянное объявление.
+14538 [main] DEBUG Browser - [2016-02-17T02:19:07+0300] [WARNING] Неизвестное свойство «-moz-border-radius-bottomleft».  Потерянное объявление.
+14538 [main] DEBUG Browser - [2016-02-17T02:19:07+0300] [WARNING] Неизвестное свойство «-moz-border-radius-bottomright».  Потерянное объявление.
+14538 [main] DEBUG Browser - [2016-02-17T02:19:07+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+14539 [main] DEBUG Browser - [2016-02-17T02:19:07+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+14539 [main] DEBUG Browser - [2016-02-17T02:19:07+0300] [WARNING] Неизвестное свойство «-moz-border-radius».  Потерянное объявление.
+14539 [main] DEBUG Browser - [2016-02-17T02:19:07+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+14539 [main] DEBUG Browser - [2016-02-17T02:19:07+0300] [WARNING] Ожидалось «none» или «URL», но найдено «chroma(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+14539 [main] DEBUG Browser - [2016-02-17T02:19:07+0300] [WARNING] Метод getAttributeNode() является устаревшим. Для его замены используйте метод getAttribute().
+14576 [main] DEBUG ru.greg3d.TracingWebDriver - executeScript(...) = 0
+14576 [main] DEBUG ru.greg3d.TracingWebDriver - findElements()
+14576 [main] DEBUG ru.greg3d.TracingWebDriver - findElements(By.xpath: //div[@id='results']/a)
+14615 [main] DEBUG ru.greg3d.TracingWebDriver - findElements(...) = [[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> xpath: //div[@id='results']/a], [[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> xpath: //div[@id='results']/a], [[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> xpath: //div[@id='results']/a], [[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> xpath: //div[@id='results']/a], [[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> xpath: //div[@id='results']/a], [[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> xpath: //div[@id='results']/a]]
+14616 [main] INFO  ru.greg3d.Lesson2TestComplect - Done
+14616 [main] INFO  ru.greg3d.TestBase - <<< @Test deleteRecord
+14617 [main] INFO  ru.greg3d.TestBase - >>> @Test goHome
+14617 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+14618 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.xpath: //a[contains(text(),'Home')])
+14647 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> xpath: //a[contains(text(),'Home')]]
+14647 [main] DEBUG ru.greg3d.events.WebEventListener - beforeClickOn '[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> xpath: //a[contains(text(),'Home')]]'
+15257 [main] DEBUG ru.greg3d.events.WebEventListener - afterClickOn '[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> xpath: //a[contains(text(),'Home')]]'
+15278 [main] INFO  ru.greg3d.TestBase - <<< @Test goHome
+15278 [main] INFO  ru.greg3d.TestBase - >>> @Test testSearchFirstRecord
+15279 [main] DEBUG ru.greg3d.TracingWebDriver - findElements()
+15279 [main] DEBUG ru.greg3d.TracingWebDriver - findElements(By.cssSelector: .title)
+15307 [main] DEBUG Browser - [2016-02-17T02:19:07+0300] [WARNING] Метод getPreventDefault() является устаревшим. Для его замены используйте метод defaultPrevented.
+15307 [main] DEBUG Browser - [2016-02-17T02:19:08+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+15307 [main] DEBUG Browser - [2016-02-17T02:19:08+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+15307 [main] DEBUG Browser - [2016-02-17T02:19:08+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+15307 [main] DEBUG Browser - [2016-02-17T02:19:08+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+15308 [main] DEBUG Browser - [2016-02-17T02:19:08+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+15308 [main] DEBUG Browser - [2016-02-17T02:19:08+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+15308 [main] DEBUG Browser - [2016-02-17T02:19:08+0300] [WARNING] Ожидалось «none» или «URL», но найдено «mask(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+15308 [main] DEBUG Browser - [2016-02-17T02:19:08+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+15308 [main] DEBUG Browser - [2016-02-17T02:19:08+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+15308 [main] DEBUG Browser - [2016-02-17T02:19:08+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+15308 [main] DEBUG Browser - [2016-02-17T02:19:08+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+15308 [main] DEBUG Browser - [2016-02-17T02:19:08+0300] [WARNING] Неизвестное свойство «-moz-border-radius-topleft».  Потерянное объявление.
+15308 [main] DEBUG Browser - [2016-02-17T02:19:08+0300] [WARNING] Неизвестное свойство «-moz-border-radius-topright».  Потерянное объявление.
+15309 [main] DEBUG Browser - [2016-02-17T02:19:08+0300] [WARNING] Неизвестное свойство «-moz-border-radius-bottomleft».  Потерянное объявление.
+15309 [main] DEBUG Browser - [2016-02-17T02:19:08+0300] [WARNING] Неизвестное свойство «-moz-border-radius-bottomright».  Потерянное объявление.
+15309 [main] DEBUG Browser - [2016-02-17T02:19:08+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+15309 [main] DEBUG Browser - [2016-02-17T02:19:08+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+15309 [main] DEBUG Browser - [2016-02-17T02:19:08+0300] [WARNING] Неизвестное свойство «-moz-border-radius».  Потерянное объявление.
+15309 [main] DEBUG Browser - [2016-02-17T02:19:08+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+15309 [main] DEBUG Browser - [2016-02-17T02:19:08+0300] [WARNING] Ожидалось «none» или «URL», но найдено «chroma(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+15309 [main] DEBUG Browser - [2016-02-17T02:19:08+0300] [WARNING] Метод getAttributeNode() является устаревшим. Для его замены используйте метод getAttribute().
+15321 [main] DEBUG ru.greg3d.TracingWebDriver - findElements(...) = [[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> css selector: .title], [[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> css selector: .title], [[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> css selector: .title], [[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> css selector: .title], [[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> css selector: .title], [[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> css selector: .title]]
+15322 [main] DEBUG ru.greg3d.TracingWebDriver - findElements()
+15322 [main] DEBUG ru.greg3d.TracingWebDriver - findElements(By.cssSelector: .title)
+15355 [main] DEBUG ru.greg3d.TracingWebDriver - findElements(...) = [[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> css selector: .title], [[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> css selector: .title], [[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> css selector: .title], [[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> css selector: .title], [[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> css selector: .title], [[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> css selector: .title]]
+15370 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+15370 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.id: q)
+15388 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> id: q]
+15401 [main] DEBUG ru.greg3d.events.WebEventListener - beforeChangeValueOf: '[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> id: q]'
+15453 [main] DEBUG ru.greg3d.events.WebEventListener - afterChangeValueOf: '[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> id: q]'
+15453 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+15454 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.id: q)
+15462 [main] DEBUG Browser - [2016-02-17T02:19:08+0300] [WARNING] Метод getPreventDefault() является устаревшим. Для его замены используйте метод defaultPrevented.
+15473 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> id: q]
+15486 [main] DEBUG ru.greg3d.events.WebEventListener - beforeChangeValueOf: '[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> id: q]'
+15637 [main] DEBUG ru.greg3d.events.WebEventListener - afterChangeValueOf: '[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> id: q]'new name_1455664385074
+15638 [main] DEBUG ru.greg3d.TracingWebDriver - executeScript()
+15638 [main] DEBUG ru.greg3d.TracingWebDriver - executeScript(return $.active, ...)
+15665 [main] DEBUG ru.greg3d.TracingWebDriver - executeScript(...) = 0
+15665 [main] DEBUG ru.greg3d.TracingWebDriver - executeScript()
+15665 [main] DEBUG ru.greg3d.TracingWebDriver - executeScript(return $.active, ...)
+15685 [main] DEBUG ru.greg3d.TracingWebDriver - executeScript(...) = 0
+15686 [main] DEBUG ru.greg3d.TracingWebDriver - findElements()
+15686 [main] DEBUG ru.greg3d.TracingWebDriver - findElements(By.cssSelector: .title)
+15703 [main] DEBUG ru.greg3d.TracingWebDriver - findElements(...) = [[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> css selector: .title]]
+15704 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+15704 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.cssSelector: .title)
+15723 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> css selector: .title]
+15743 [main] INFO  ru.greg3d.Lesson2TestComplect - Done
+15743 [main] INFO  ru.greg3d.TestBase - <<< @Test testSearchFirstRecord
+15744 [main] INFO  ru.greg3d.TestBase - >>> @Test goHome
+15744 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+15744 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.xpath: //a[contains(text(),'Home')])
+15766 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> xpath: //a[contains(text(),'Home')]]
+15767 [main] DEBUG ru.greg3d.events.WebEventListener - beforeClickOn '[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> xpath: //a[contains(text(),'Home')]]'
+16241 [main] DEBUG ru.greg3d.events.WebEventListener - afterClickOn '[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> xpath: //a[contains(text(),'Home')]]'
+16259 [main] INFO  ru.greg3d.TestBase - <<< @Test goHome
+16260 [main] INFO  ru.greg3d.TestBase - >>> @Test testUnSearchFirstRecord
+16260 [main] DEBUG ru.greg3d.TracingWebDriver - findElements()
+16260 [main] DEBUG ru.greg3d.TracingWebDriver - findElements(By.cssSelector: .title)
+16272 [main] DEBUG Browser - [2016-02-17T02:19:09+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+16272 [main] DEBUG Browser - [2016-02-17T02:19:09+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+16272 [main] DEBUG Browser - [2016-02-17T02:19:09+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+16272 [main] DEBUG Browser - [2016-02-17T02:19:09+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+16272 [main] DEBUG Browser - [2016-02-17T02:19:09+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+16272 [main] DEBUG Browser - [2016-02-17T02:19:09+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+16273 [main] DEBUG Browser - [2016-02-17T02:19:09+0300] [WARNING] Ожидалось «none» или «URL», но найдено «mask(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+16273 [main] DEBUG Browser - [2016-02-17T02:19:09+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+16273 [main] DEBUG Browser - [2016-02-17T02:19:09+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+16273 [main] DEBUG Browser - [2016-02-17T02:19:09+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+16273 [main] DEBUG Browser - [2016-02-17T02:19:09+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+16273 [main] DEBUG Browser - [2016-02-17T02:19:09+0300] [WARNING] Неизвестное свойство «-moz-border-radius-topleft».  Потерянное объявление.
+16273 [main] DEBUG Browser - [2016-02-17T02:19:09+0300] [WARNING] Неизвестное свойство «-moz-border-radius-topright».  Потерянное объявление.
+16273 [main] DEBUG Browser - [2016-02-17T02:19:09+0300] [WARNING] Неизвестное свойство «-moz-border-radius-bottomleft».  Потерянное объявление.
+16273 [main] DEBUG Browser - [2016-02-17T02:19:09+0300] [WARNING] Неизвестное свойство «-moz-border-radius-bottomright».  Потерянное объявление.
+16274 [main] DEBUG Browser - [2016-02-17T02:19:09+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+16274 [main] DEBUG Browser - [2016-02-17T02:19:09+0300] [WARNING] Ожидалось «none» или «URL», но найдено «Alpha(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+16274 [main] DEBUG Browser - [2016-02-17T02:19:09+0300] [WARNING] Неизвестное свойство «-moz-border-radius».  Потерянное объявление.
+16274 [main] DEBUG Browser - [2016-02-17T02:19:09+0300] [WARNING] Неизвестное свойство «zoom».  Потерянное объявление.
+16274 [main] DEBUG Browser - [2016-02-17T02:19:09+0300] [WARNING] Ожидалось «none» или «URL», но найдено «chroma(».  Ошибка при парсинге значения «filter».  Потерянное объявление.
+16274 [main] DEBUG Browser - [2016-02-17T02:19:09+0300] [WARNING] Метод getAttributeNode() является устаревшим. Для его замены используйте метод getAttribute().
+16283 [main] DEBUG ru.greg3d.TracingWebDriver - findElements(...) = [[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> css selector: .title]]
+16284 [main] DEBUG ru.greg3d.TracingWebDriver - findElements()
+16284 [main] DEBUG ru.greg3d.TracingWebDriver - findElements(By.cssSelector: .title)
+16300 [main] DEBUG ru.greg3d.TracingWebDriver - findElements(...) = [[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> css selector: .title]]
+16311 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+16311 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.id: q)
+16324 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> id: q]
+16343 [main] DEBUG ru.greg3d.events.WebEventListener - beforeChangeValueOf: '[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> id: q]'
+16409 [main] DEBUG ru.greg3d.events.WebEventListener - afterChangeValueOf: '[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> id: q]'new name_1455664385074
+16409 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+16409 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.id: q)
+16419 [main] DEBUG Browser - [2016-02-17T02:19:09+0300] [WARNING] Метод getPreventDefault() является устаревшим. Для его замены используйте метод defaultPrevented.
+16427 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> id: q]
+16439 [main] DEBUG ru.greg3d.events.WebEventListener - beforeChangeValueOf: '[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> id: q]'
+16527 [main] DEBUG ru.greg3d.events.WebEventListener - afterChangeValueOf: '[[FirefoxDriver: firefox on LINUX (9c369724-4394-4531-a98c-169869af330c)] -> id: q]'4705834665541_eman wen
+16527 [main] DEBUG ru.greg3d.TracingWebDriver - executeScript()
+16527 [main] DEBUG ru.greg3d.TracingWebDriver - executeScript(return $.active, ...)
+16557 [main] DEBUG ru.greg3d.TracingWebDriver - executeScript(...) = 0
+16557 [main] DEBUG ru.greg3d.TracingWebDriver - executeScript()
+16557 [main] DEBUG ru.greg3d.TracingWebDriver - executeScript(return $.active, ...)
+16577 [main] DEBUG ru.greg3d.TracingWebDriver - executeScript(...) = 0
+16577 [main] DEBUG ru.greg3d.TracingWebDriver - findElements()
+16577 [main] DEBUG ru.greg3d.TracingWebDriver - findElements(By.cssSelector: .title)
+16592 [main] DEBUG ru.greg3d.TracingWebDriver - findElements(...) = []
+16592 [main] INFO  ru.greg3d.TestBase - <<< @Test testUnSearchFirstRecord
+16617 [main] INFO  ru.greg3d.TestBase - >>> @Test tearDown
+16696 [main] INFO  ru.greg3d.TestBase - <<< @Test tearDown

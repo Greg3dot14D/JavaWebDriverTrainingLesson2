@@ -14,12 +14,12 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.*;
 
-public class Lesson2TestCoplect extends TestBase {
+public class Lesson2TestComplect extends TestBase {
 	private boolean acceptNextAlert = true;
 	private StringBuffer verificationErrors = new StringBuffer();
 	private final String _CLEAR_KEYS = Keys.CONTROL + "a" + Keys.DELETE;
 	
-	public static Logger LOG = LoggerFactory.getLogger(Lesson2TestCoplect.class);
+	public static Logger LOG = LoggerFactory.getLogger(Lesson2TestComplect.class);
 
 	private HashMap<String, fieldLocator> _FilmFields = new HashMap<String, fieldLocator>();
 	
@@ -79,7 +79,8 @@ public class Lesson2TestCoplect extends TestBase {
 	
 	@BeforeClass
 	public void DoLoginTest() throws Exception {
-		driver.get(baseUrl + "/php4dvd/");
+		String startUrl = baseUrl + "/php4dvd/";
+		driver.get(startUrl);
 
 		WebElement userNameElement = driver.findElement(By.id("username"));
 		// userNameElement.clear();
@@ -93,6 +94,8 @@ public class Lesson2TestCoplect extends TestBase {
 		WebElement submitElement = driver.findElement(By.name("submit"));
 		submitElement.click();
 
+		Assert.assertTrue(driver.getCurrentUrl().contains(startUrl+"#!"), "Login wasn't");
+		
 		initFilmFields();
 	}
 

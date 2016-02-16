@@ -21,7 +21,7 @@ public class BrowserFactory {
 
 		DesiredCapabilities cap = new DesiredCapabilities();
 		cap.setCapability(CapabilityType.UNEXPECTED_ALERT_BEHAVIOUR, UnexpectedAlertBehaviour.IGNORE);
-		//cap.setCapability(CapabilityType.HAS_NATIVE_EVENTS,false);
+		cap.setCapability(CapabilityType.HAS_NATIVE_EVENTS,false);
 		
 		switch(PropertyLoader.loadProperty("browser.name")){
 			// вставляем костыли, если они требуются в проекте

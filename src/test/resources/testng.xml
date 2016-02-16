@@ -4,7 +4,7 @@
 	<test name="Test1">
 		<parameter name="path" value="/"/>
 		<classes>
-		    <class name="ru.greg3d.Lesson2TestCoplect"/>
+		    <class name="ru.greg3d.Lesson2TestComplect"/>
 		</classes>
 	</test>  
 </suite>
