@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12119" started-at="2016-02-16T21:46:55Z" finished-at="2016-02-16T21:47:08Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12119" started-at="2016-02-16T21:46:55Z" finished-at="2016-02-16T21:47:08Z">
+      <class name="ru.greg3d.Lesson2TestCoplect">
+        <test-method status="PASS" signature="SuiteSetup()[pri:0, instance:ru.greg3d.Lesson2TestCoplect@19b62af]" name="SuiteSetup" is-config="true" duration-ms="6059" started-at="2016-02-17T00:46:49Z" finished-at="2016-02-17T00:46:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuiteSetup -->
+        <test-method status="PASS" signature="DoLoginTest()[pri:0, instance:ru.greg3d.Lesson2TestCoplect@19b62af]" name="DoLoginTest" is-config="true" duration-ms="2171" started-at="2016-02-17T00:46:56Z" finished-at="2016-02-17T00:46:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoLoginTest -->
+        <test-method status="PASS" signature="goHome()[pri:0, instance:ru.greg3d.Lesson2TestCoplect@19b62af]" name="goHome" is-config="true" duration-ms="640" started-at="2016-02-17T00:46:58Z" finished-at="2016-02-17T00:46:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method status="PASS" signature="addCorrectRecord()[pri:0, instance:ru.greg3d.Lesson2TestCoplect@19b62af]" name="addCorrectRecord" duration-ms="2209" started-at="2016-02-17T00:46:58Z" finished-at="2016-02-17T00:47:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCorrectRecord -->
+        <test-method status="PASS" signature="goHome()[pri:0, instance:ru.greg3d.Lesson2TestCoplect@19b62af]" name="goHome" is-config="true" duration-ms="484" started-at="2016-02-17T00:47:01Z" finished-at="2016-02-17T00:47:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method status="PASS" signature="addWrongRecord(java.lang.String)[pri:0, instance:ru.greg3d.Lesson2TestCoplect@19b62af]" name="addWrongRecord" duration-ms="1115" started-at="2016-02-17T00:47:01Z" data-provider="necessaryFilmFieldsDataProvider" finished-at="2016-02-17T00:47:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tytle]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addWrongRecord -->
+        <test-method status="PASS" signature="goHome()[pri:0, instance:ru.greg3d.Lesson2TestCoplect@19b62af]" name="goHome" is-config="true" duration-ms="492" started-at="2016-02-17T00:47:02Z" finished-at="2016-02-17T00:47:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method status="PASS" signature="addWrongRecord(java.lang.String)[pri:0, instance:ru.greg3d.Lesson2TestCoplect@19b62af]" name="addWrongRecord" duration-ms="1164" started-at="2016-02-17T00:47:03Z" data-provider="necessaryFilmFieldsDataProvider" finished-at="2016-02-17T00:47:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Year]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addWrongRecord -->
+        <test-method status="PASS" signature="goHome()[pri:0, instance:ru.greg3d.Lesson2TestCoplect@19b62af]" name="goHome" is-config="true" duration-ms="548" started-at="2016-02-17T00:47:04Z" finished-at="2016-02-17T00:47:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method status="PASS" signature="deleteRecord()[pri:0, instance:ru.greg3d.Lesson2TestCoplect@19b62af]" name="deleteRecord" duration-ms="1181" started-at="2016-02-17T00:47:04Z" finished-at="2016-02-17T00:47:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteRecord -->
+        <test-method status="PASS" signature="goHome()[pri:0, instance:ru.greg3d.Lesson2TestCoplect@19b62af]" name="goHome" is-config="true" duration-ms="471" started-at="2016-02-17T00:47:06Z" finished-at="2016-02-17T00:47:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method status="PASS" signature="testSearchFirstRecord()[pri:0, instance:ru.greg3d.Lesson2TestCoplect@19b62af]" name="testSearchFirstRecord" duration-ms="561" started-at="2016-02-17T00:47:06Z" finished-at="2016-02-17T00:47:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchFirstRecord -->
+        <test-method status="PASS" signature="goHome()[pri:0, instance:ru.greg3d.Lesson2TestCoplect@19b62af]" name="goHome" is-config="true" duration-ms="614" started-at="2016-02-17T00:47:07Z" finished-at="2016-02-17T00:47:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method status="PASS" signature="testUnSearchFirstRecord()[pri:0, instance:ru.greg3d.Lesson2TestCoplect@19b62af]" name="testUnSearchFirstRecord" duration-ms="423" started-at="2016-02-17T00:47:07Z" finished-at="2016-02-17T00:47:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUnSearchFirstRecord -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ru.greg3d.Lesson2TestCoplect@19b62af]" name="tearDown" is-config="true" duration-ms="107" started-at="2016-02-17T00:47:08Z" finished-at="2016-02-17T00:47:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ru.greg3d.Lesson2TestCoplect -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

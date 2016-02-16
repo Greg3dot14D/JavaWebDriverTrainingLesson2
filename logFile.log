@@ -1,0 +1,266 @@
+654  [main] INFO  ru.greg3d.TestBase - >>> @Test SuiteSetup
+6559 [main] INFO  ru.greg3d.TracingWebDriver - Init tracer for Build info: version: '2.51.0', revision: '1af067dbcaedd7d2ab9af5151fc471d363d97193', time: '2016-02-05 11:20:57', driver org.openqa.selenium.support.events.EventFiringWebDriver
+6584 [main] INFO  ru.greg3d.TestBase - <<< @Test SuiteSetup
+6592 [main] INFO  ru.greg3d.TestBase - >>> @Test DoLoginTest
+6592 [main] DEBUG ru.greg3d.TracingWebDriver - get()
+6592 [main] DEBUG ru.greg3d.TracingWebDriver - get(http://localhost/php4dvd/)
+6908 [main] DEBUG ru.greg3d.TracingWebDriver - get(...) = null
+6908 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+6908 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.id: username)
+7038 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> id: username]
+7075 [main] DEBUG ru.greg3d.events.WebEventListener - beforeChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> id: username]'
+7193 [main] DEBUG ru.greg3d.events.WebEventListener - afterChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> id: username]'
+7212 [main] DEBUG ru.greg3d.events.WebEventListener - beforeChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> id: username]'
+7271 [main] DEBUG ru.greg3d.events.WebEventListener - afterChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> id: username]'admin
+7271 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+7271 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.name: password)
+7295 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: password]
+7835 [main] DEBUG ru.greg3d.events.WebEventListener - beforeChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: password]'
+7885 [main] DEBUG ru.greg3d.events.WebEventListener - afterChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: password]'
+7899 [main] DEBUG ru.greg3d.events.WebEventListener - beforeChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: password]'
+7945 [main] DEBUG ru.greg3d.events.WebEventListener - afterChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: password]'admin
+7945 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+7945 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.name: submit)
+7963 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: submit]
+7963 [main] DEBUG ru.greg3d.events.WebEventListener - beforeClickOn '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: submit]'
+8453 [main] DEBUG ru.greg3d.events.WebEventListener - afterClickOn '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: submit]'
+8480 [main] INFO  ru.greg3d.TestBase - <<< @Test DoLoginTest
+8484 [main] INFO  ru.greg3d.TestBase - >>> @Test goHome
+8484 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+8484 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.xpath: //a[contains(text(),'Home')])
+8512 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //a[contains(text(),'Home')]]
+8513 [main] DEBUG ru.greg3d.events.WebEventListener - beforeClickOn '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //a[contains(text(),'Home')]]'
+8975 [main] DEBUG ru.greg3d.events.WebEventListener - afterClickOn '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //a[contains(text(),'Home')]]'
+8999 [main] INFO  ru.greg3d.TestBase - <<< @Test goHome
+9001 [main] INFO  ru.greg3d.TestBase - >>> @Test addCorrectRecord
+9001 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+9002 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.id: results)
+9038 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> id: results]
+9075 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+9076 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.cssSelector: img[title='Add movie'])
+9148 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: img[title='Add movie']]
+9148 [main] DEBUG ru.greg3d.events.WebEventListener - beforeClickOn '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: img[title='Add movie']]'
+9632 [main] DEBUG ru.greg3d.events.WebEventListener - afterClickOn '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: img[title='Add movie']]'
+9660 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+9660 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.name: name)
+9699 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: name]
+9745 [main] DEBUG ru.greg3d.events.WebEventListener - beforeChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: name]'
+9930 [main] DEBUG ru.greg3d.events.WebEventListener - afterChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: name]'new name_1455659263822
+9932 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+9932 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.name: year)
+9964 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: year]
+9981 [main] DEBUG ru.greg3d.events.WebEventListener - beforeChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: year]'
+10040 [main] DEBUG ru.greg3d.events.WebEventListener - afterChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: year]'1959
+10041 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+10041 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.name: rating)
+10067 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: rating]
+10092 [main] DEBUG ru.greg3d.events.WebEventListener - beforeChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: rating]'
+10146 [main] DEBUG ru.greg3d.events.WebEventListener - afterChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: rating]'2
+10146 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+10146 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.name: duration)
+10170 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: duration]
+10190 [main] DEBUG ru.greg3d.events.WebEventListener - beforeChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: duration]'
+10248 [main] DEBUG ru.greg3d.events.WebEventListener - afterChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: duration]'62
+10248 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+10248 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.cssSelector: img[title='Save'])
+10272 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: img[title='Save']]
+10273 [main] DEBUG ru.greg3d.events.WebEventListener - beforeClickOn '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: img[title='Save']]'
+10643 [main] DEBUG ru.greg3d.events.WebEventListener - afterClickOn '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: img[title='Save']]'
+10690 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+10690 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.xpath: //a[contains(text(),'Home')])
+10724 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //a[contains(text(),'Home')]]
+10724 [main] DEBUG ru.greg3d.events.WebEventListener - beforeClickOn '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //a[contains(text(),'Home')]]'
+11207 [main] DEBUG ru.greg3d.events.WebEventListener - afterClickOn '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //a[contains(text(),'Home')]]'
+11286 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+11286 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.id: results)
+11323 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> id: results]
+11347 [main] INFO  ru.greg3d.TestBase - <<< @Test addCorrectRecord
+11359 [main] INFO  ru.greg3d.TestBase - >>> @Test goHome
+11359 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+11359 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.xpath: //a[contains(text(),'Home')])
+11407 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //a[contains(text(),'Home')]]
+11408 [main] DEBUG ru.greg3d.events.WebEventListener - beforeClickOn '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //a[contains(text(),'Home')]]'
+11542 [main] DEBUG ru.greg3d.events.WebEventListener - afterClickOn '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //a[contains(text(),'Home')]]'
+11956 [main] INFO  ru.greg3d.TestBase - <<< @Test goHome
+11956 [main] INFO  ru.greg3d.TestBase - >>> @Test addWrongRecord
+11956 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+11956 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.cssSelector: img[title='Add movie'])
+11985 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: img[title='Add movie']]
+11985 [main] DEBUG ru.greg3d.events.WebEventListener - beforeClickOn '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: img[title='Add movie']]'
+12210 [main] DEBUG ru.greg3d.events.WebEventListener - afterClickOn '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: img[title='Add movie']]'
+12607 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+12608 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.name: duration)
+12656 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: duration]
+12673 [main] DEBUG ru.greg3d.events.WebEventListener - beforeChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: duration]'
+12744 [main] DEBUG ru.greg3d.events.WebEventListener - afterChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: duration]'83
+12744 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+12744 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.name: year)
+12768 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: year]
+12836 [main] DEBUG ru.greg3d.events.WebEventListener - beforeChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: year]'
+12967 [main] DEBUG ru.greg3d.events.WebEventListener - afterChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: year]'1991
+12968 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+12968 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.name: rating)
+12991 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: rating]
+13008 [main] DEBUG ru.greg3d.events.WebEventListener - beforeChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: rating]'
+13151 [main] DEBUG ru.greg3d.events.WebEventListener - afterChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: rating]'8
+13152 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+13152 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.cssSelector: img[title='Save'])
+13191 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: img[title='Save']]
+13191 [main] DEBUG ru.greg3d.events.WebEventListener - beforeClickOn '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: img[title='Save']]'
+13406 [main] DEBUG ru.greg3d.events.WebEventListener - afterClickOn '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: img[title='Save']]'
+13444 [main] INFO  ru.greg3d.TestBase - <<< @Test addWrongRecord
+13444 [main] INFO  ru.greg3d.TestBase - >>> @Test goHome
+13444 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+13444 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.xpath: //a[contains(text(),'Home')])
+13482 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //a[contains(text(),'Home')]]
+13484 [main] DEBUG ru.greg3d.events.WebEventListener - beforeClickOn '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //a[contains(text(),'Home')]]'
+13976 [main] DEBUG ru.greg3d.events.WebEventListener - afterClickOn '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //a[contains(text(),'Home')]]'
+14056 [main] INFO  ru.greg3d.TestBase - <<< @Test goHome
+14057 [main] INFO  ru.greg3d.TestBase - >>> @Test addWrongRecord
+14057 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+14057 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.cssSelector: img[title='Add movie'])
+14190 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: img[title='Add movie']]
+14190 [main] DEBUG ru.greg3d.events.WebEventListener - beforeClickOn '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: img[title='Add movie']]'
+14676 [main] DEBUG ru.greg3d.events.WebEventListener - afterClickOn '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: img[title='Add movie']]'
+14712 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+14712 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.name: name)
+14765 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: name]
+14798 [main] DEBUG ru.greg3d.events.WebEventListener - beforeChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: name]'
+14966 [main] DEBUG ru.greg3d.events.WebEventListener - afterChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: name]'new name_1455659268883
+14966 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+14966 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.name: duration)
+14990 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: duration]
+15006 [main] DEBUG ru.greg3d.events.WebEventListener - beforeChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: duration]'
+15062 [main] DEBUG ru.greg3d.events.WebEventListener - afterChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: duration]'79
+15062 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+15062 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.name: rating)
+15089 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: rating]
+15110 [main] DEBUG ru.greg3d.events.WebEventListener - beforeChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: rating]'
+15198 [main] DEBUG ru.greg3d.events.WebEventListener - afterChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> name: rating]'6
+15198 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+15198 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.cssSelector: img[title='Save'])
+15218 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: img[title='Save']]
+15218 [main] DEBUG ru.greg3d.events.WebEventListener - beforeClickOn '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: img[title='Save']]'
+15339 [main] DEBUG ru.greg3d.events.WebEventListener - afterClickOn '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: img[title='Save']]'
+15388 [main] INFO  ru.greg3d.TestBase - <<< @Test addWrongRecord
+15389 [main] INFO  ru.greg3d.TestBase - >>> @Test goHome
+15389 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+15389 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.xpath: //a[contains(text(),'Home')])
+15413 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //a[contains(text(),'Home')]]
+15413 [main] DEBUG ru.greg3d.events.WebEventListener - beforeClickOn '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //a[contains(text(),'Home')]]'
+15976 [main] DEBUG ru.greg3d.events.WebEventListener - afterClickOn '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //a[contains(text(),'Home')]]'
+16064 [main] INFO  ru.greg3d.TestBase - <<< @Test goHome
+16064 [main] INFO  ru.greg3d.TestBase - >>> @Test deleteRecord
+16064 [main] DEBUG ru.greg3d.TracingWebDriver - findElements()
+16064 [main] DEBUG ru.greg3d.TracingWebDriver - findElements(By.xpath: //div[@id='results']/a)
+16103 [main] DEBUG ru.greg3d.TracingWebDriver - findElements(...) = [[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //div[@id='results']/a], [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //div[@id='results']/a], [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //div[@id='results']/a], [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //div[@id='results']/a], [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //div[@id='results']/a], [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //div[@id='results']/a], [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //div[@id='results']/a]]
+16103 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+16103 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.xpath: //div[@id='results']/a/div)
+16151 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //div[@id='results']/a/div]
+16152 [main] DEBUG ru.greg3d.events.WebEventListener - beforeClickOn '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //div[@id='results']/a/div]'
+16499 [main] DEBUG ru.greg3d.events.WebEventListener - afterClickOn '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //div[@id='results']/a/div]'
+16525 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+16526 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.cssSelector: img[title='Remove'])
+16545 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: img[title='Remove']]
+16546 [main] DEBUG ru.greg3d.events.WebEventListener - beforeClickOn '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: img[title='Remove']]'
+16742 [main] DEBUG ru.greg3d.events.WebEventListener - afterClickOn '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: img[title='Remove']]'
+16840 [main] ERROR ru.greg3d.events.WebEventListener - Error occurred: org.openqa.selenium.UnhandledAlertException: Modal dialog present: Are you sure you want to remove this?
+Build info: version: '2.51.0', revision: '1af067dbcaedd7d2ab9af5151fc471d363d97193', time: '2016-02-05 11:20:57'
+System info: host: 'Home-Ubuntu', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'i386', os.version: '3.13.0-43-generic', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=34.0, platform=LINUX, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 780f3796-6eb8-47ff-ba9e-4bcd0158e46e
+16864 [main] ERROR ru.greg3d.events.WebEventListener - Error occurred: org.openqa.selenium.UnhandledAlertException: Modal dialog present: Are you sure you want to remove this?
+Build info: version: '2.51.0', revision: '1af067dbcaedd7d2ab9af5151fc471d363d97193', time: '2016-02-05 11:20:57'
+System info: host: 'Home-Ubuntu', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'i386', os.version: '3.13.0-43-generic', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=34.0, platform=LINUX, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 780f3796-6eb8-47ff-ba9e-4bcd0158e46e
+16864 [main] DEBUG ru.greg3d.TracingWebDriver - switchTo()
+16873 [main] DEBUG ru.greg3d.TracingWebDriver - switchTo(...) = org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringTargetLocator@1d0e481
+16954 [main] DEBUG ru.greg3d.Lesson2TestCoplect - closeAlertAndGetItsText -Are you sure you want to remove this?
+16954 [main] DEBUG ru.greg3d.TracingWebDriver - executeScript()
+16954 [main] DEBUG ru.greg3d.TracingWebDriver - executeScript(return $.active, ...)
+17530 [main] DEBUG ru.greg3d.TracingWebDriver - executeScript(...) = 0
+17530 [main] DEBUG ru.greg3d.TracingWebDriver - executeScript()
+17530 [main] DEBUG ru.greg3d.TracingWebDriver - executeScript(return $.active, ...)
+17568 [main] DEBUG ru.greg3d.TracingWebDriver - executeScript(...) = 0
+17568 [main] DEBUG ru.greg3d.TracingWebDriver - findElements()
+17568 [main] DEBUG ru.greg3d.TracingWebDriver - findElements(By.xpath: //div[@id='results']/a)
+17630 [main] DEBUG ru.greg3d.TracingWebDriver - findElements(...) = [[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //div[@id='results']/a], [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //div[@id='results']/a], [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //div[@id='results']/a], [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //div[@id='results']/a], [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //div[@id='results']/a], [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //div[@id='results']/a]]
+17630 [main] INFO  ru.greg3d.Lesson2TestCoplect - Done
+17631 [main] INFO  ru.greg3d.TestBase - <<< @Test deleteRecord
+17636 [main] INFO  ru.greg3d.TestBase - >>> @Test goHome
+17636 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+17636 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.xpath: //a[contains(text(),'Home')])
+17670 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //a[contains(text(),'Home')]]
+17670 [main] DEBUG ru.greg3d.events.WebEventListener - beforeClickOn '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //a[contains(text(),'Home')]]'
+17869 [main] DEBUG ru.greg3d.events.WebEventListener - afterClickOn '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //a[contains(text(),'Home')]]'
+18301 [main] INFO  ru.greg3d.TestBase - <<< @Test goHome
+18301 [main] INFO  ru.greg3d.TestBase - >>> @Test testSearchFirstRecord
+18303 [main] DEBUG ru.greg3d.TracingWebDriver - findElements()
+18303 [main] DEBUG ru.greg3d.TracingWebDriver - findElements(By.cssSelector: .title)
+18340 [main] DEBUG ru.greg3d.TracingWebDriver - findElements(...) = [[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: .title], [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: .title], [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: .title], [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: .title], [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: .title], [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: .title]]
+18341 [main] DEBUG ru.greg3d.TracingWebDriver - findElements()
+18341 [main] DEBUG ru.greg3d.TracingWebDriver - findElements(By.cssSelector: .title)
+18364 [main] DEBUG ru.greg3d.TracingWebDriver - findElements(...) = [[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: .title], [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: .title], [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: .title], [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: .title], [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: .title], [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: .title]]
+18410 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+18410 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.id: q)
+18430 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> id: q]
+18447 [main] DEBUG ru.greg3d.events.WebEventListener - beforeChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> id: q]'
+18497 [main] DEBUG ru.greg3d.events.WebEventListener - afterChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> id: q]'
+18498 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+18498 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.id: q)
+18515 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> id: q]
+18542 [main] DEBUG ru.greg3d.events.WebEventListener - beforeChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> id: q]'
+18660 [main] DEBUG ru.greg3d.events.WebEventListener - afterChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> id: q]'new name_1455659158175
+18660 [main] DEBUG ru.greg3d.TracingWebDriver - executeScript()
+18660 [main] DEBUG ru.greg3d.TracingWebDriver - executeScript(return $.active, ...)
+18716 [main] DEBUG ru.greg3d.TracingWebDriver - executeScript(...) = 0
+18717 [main] DEBUG ru.greg3d.TracingWebDriver - executeScript()
+18717 [main] DEBUG ru.greg3d.TracingWebDriver - executeScript(return $.active, ...)
+18745 [main] DEBUG ru.greg3d.TracingWebDriver - executeScript(...) = 0
+18745 [main] DEBUG ru.greg3d.TracingWebDriver - findElements()
+18745 [main] DEBUG ru.greg3d.TracingWebDriver - findElements(By.cssSelector: .title)
+18773 [main] DEBUG ru.greg3d.TracingWebDriver - findElements(...) = [[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: .title]]
+18773 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+18773 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.cssSelector: .title)
+18796 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: .title]
+18815 [main] INFO  ru.greg3d.Lesson2TestCoplect - Done
+18816 [main] INFO  ru.greg3d.TestBase - <<< @Test testSearchFirstRecord
+18816 [main] INFO  ru.greg3d.TestBase - >>> @Test goHome
+18819 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+18819 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.xpath: //a[contains(text(),'Home')])
+18855 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //a[contains(text(),'Home')]]
+18856 [main] DEBUG ru.greg3d.events.WebEventListener - beforeClickOn '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //a[contains(text(),'Home')]]'
+19363 [main] DEBUG ru.greg3d.events.WebEventListener - afterClickOn '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> xpath: //a[contains(text(),'Home')]]'
+19408 [main] INFO  ru.greg3d.TestBase - <<< @Test goHome
+19408 [main] INFO  ru.greg3d.TestBase - >>> @Test testUnSearchFirstRecord
+19408 [main] DEBUG ru.greg3d.TracingWebDriver - findElements()
+19408 [main] DEBUG ru.greg3d.TracingWebDriver - findElements(By.cssSelector: .title)
+19429 [main] DEBUG ru.greg3d.TracingWebDriver - findElements(...) = [[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: .title]]
+19429 [main] DEBUG ru.greg3d.TracingWebDriver - findElements()
+19430 [main] DEBUG ru.greg3d.TracingWebDriver - findElements(By.cssSelector: .title)
+19460 [main] DEBUG ru.greg3d.TracingWebDriver - findElements(...) = [[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> css selector: .title]]
+19476 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+19476 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.id: q)
+19535 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> id: q]
+19548 [main] DEBUG ru.greg3d.events.WebEventListener - beforeChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> id: q]'
+19607 [main] DEBUG ru.greg3d.events.WebEventListener - afterChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> id: q]'new name_1455659158175
+19609 [main] DEBUG ru.greg3d.TracingWebDriver - findElement()
+19610 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(By.id: q)
+19630 [main] DEBUG ru.greg3d.TracingWebDriver - findElement(...) = [[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> id: q]
+19651 [main] DEBUG ru.greg3d.events.WebEventListener - beforeChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> id: q]'
+19742 [main] DEBUG ru.greg3d.events.WebEventListener - afterChangeValueOf: '[[FirefoxDriver: firefox on LINUX (780f3796-6eb8-47ff-ba9e-4bcd0158e46e)] -> id: q]'5718519565541_eman wen
+19743 [main] DEBUG ru.greg3d.TracingWebDriver - executeScript()
+19743 [main] DEBUG ru.greg3d.TracingWebDriver - executeScript(return $.active, ...)
+19794 [main] DEBUG ru.greg3d.TracingWebDriver - executeScript(...) = 0
+19794 [main] DEBUG ru.greg3d.TracingWebDriver - executeScript()
+19794 [main] DEBUG ru.greg3d.TracingWebDriver - executeScript(return $.active, ...)
+19824 [main] DEBUG ru.greg3d.TracingWebDriver - executeScript(...) = 0
+19824 [main] DEBUG ru.greg3d.TracingWebDriver - findElements()
+19824 [main] DEBUG ru.greg3d.TracingWebDriver - findElements(By.cssSelector: .title)
+19843 [main] DEBUG ru.greg3d.TracingWebDriver - findElements(...) = []
+19844 [main] INFO  ru.greg3d.TestBase - <<< @Test testUnSearchFirstRecord
+19873 [main] INFO  ru.greg3d.TestBase - >>> @Test tearDown
+20014 [main] INFO  ru.greg3d.TestBase - <<< @Test tearDown

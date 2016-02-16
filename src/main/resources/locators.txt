@@ -1,0 +1,23 @@
+## добавить фильм
+
+url
+	http://localhost/php4dvd/?go=add
+
+Обязательные поля
+
+input Title
+	.required.error
+	name="name"
+
+input Year
+	.required.error 
+ 	name="year"
+ 
+ button
+ 	#submit
+ 	
+ Grid
+ 	div id="results" style="display: block;">
+ 	
+ содержимое 
+ 	.//*[@id='movie_2']/div[2]
