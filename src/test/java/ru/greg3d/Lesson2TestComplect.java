@@ -2,6 +2,7 @@ package ru.greg3d;
 
 import org.testng.annotations.*;
 
+import ru.greg3d.asserts.myAssert;
 import ru.greg3d.browsers.BrowserDriver;
 import ru.greg3d.util.WaitUtils;
 
@@ -17,11 +18,17 @@ import org.testng.*;
 public class Lesson2TestComplect extends TestBase {
 	private boolean acceptNextAlert = true;
 	private StringBuffer verificationErrors = new StringBuffer();
-	private final String _CLEAR_KEYS = Keys.CONTROL + "a" + Keys.DELETE;
-	
+		
 	public static Logger LOG = LoggerFactory.getLogger(Lesson2TestComplect.class);
 
 	private HashMap<String, fieldLocator> _FilmFields = new HashMap<String, fieldLocator>();
+	
+	private abstract class fieldtype{
+		public static final String date = "date";
+		public static final String string = "string";
+		public static final String time = "time";
+		public static final String num = "num";
+	} 
 	
 	// типы полей и поля, с которыме будем работать при заполнении карточки
 	private enum typeof {
@@ -43,9 +50,9 @@ public class Lesson2TestComplect extends TestBase {
 	
 	private class fieldLocator {
 		private By by;
-		private typeof type;
+		private String type;
 
-		public fieldLocator(By by, typeof type) {
+		public fieldLocator(By by, String type) {
 			this.by = by;
 			this.type = type;
 		}
@@ -54,17 +61,17 @@ public class Lesson2TestComplect extends TestBase {
 			return this.by;
 		}
 
-		public typeof getType() {
+		public String getType() {
 			return this.type;
 		}
 	}
 
 	// перечень полей (ключ / [By / тип поля]), которые скрипт будет заполнять, при добавлении новой карточки
 	private void initFilmFields() {
-		_FilmFields.put("Tytle", new fieldLocator(By.name("name"), typeof.string));
-		_FilmFields.put("Year", new fieldLocator(By.name("year"), typeof.date));
-		_FilmFields.put("Duration", new fieldLocator(By.name("duration"), typeof.time));
-		_FilmFields.put("Rating", new fieldLocator(By.name("rating"), typeof.num));
+		_FilmFields.put("Tytle", new fieldLocator(By.name("name"), fieldtype.string));
+		_FilmFields.put("Year", new fieldLocator(By.name("year"), fieldtype.date));
+		_FilmFields.put("Duration", new fieldLocator(By.name("duration"), fieldtype.time));
+		_FilmFields.put("Rating", new fieldLocator(By.name("rating"), fieldtype.num));
 	}
 
 	
@@ -83,17 +90,20 @@ public class Lesson2TestComplect extends TestBase {
 		driver.get(startUrl);
 
 		WebElement userNameElement = driver.findElement(By.id("username"));
-		// userNameElement.clear();
-		userNameElement.sendKeys(_CLEAR_KEYS);
+		userNameElement.sendKeys(Keys.CONTROL + "a");
+		Thread.sleep(200);
+		userNameElement.sendKeys(Keys.DELETE);
 		userNameElement.sendKeys("admin");
 
 		WebElement passwordElement = driver.findElement(By.name("password"));
-		passwordElement.sendKeys(_CLEAR_KEYS);
+		passwordElement.sendKeys(Keys.CONTROL + "a");
+		Thread.sleep(200);
+		passwordElement.sendKeys(Keys.DELETE);
 		passwordElement.sendKeys("admin");
 
 		WebElement submitElement = driver.findElement(By.name("submit"));
 		submitElement.click();
-
+		
 		Assert.assertTrue(driver.getCurrentUrl().contains(startUrl+"#!"), "Login wasn't");
 		
 		initFilmFields();
@@ -141,7 +151,8 @@ public class Lesson2TestComplect extends TestBase {
 		// проверяем - не перешли ли с ссылки ? http://localhost/php4dvd/?go=add
 		Assert.assertEquals(BrowserDriver.getCurrentUrl(), baseUrl + "/php4dvd/?go=add", "Wrong Record was added");
 	}
-        
+     
+	// процедура заполнения полей в карточке фильма
 	public void addRecord(HashMap<String, fieldLocator> fieldsMap) {
 
 		// нажали кнопку Добавить
@@ -151,18 +162,18 @@ public class Lesson2TestComplect extends TestBase {
 		for (String key : fieldsMap.keySet()) {
 			WebElement element = driver.findElement(fieldsMap.get(key).getBy());
 
-			switch (fieldsMap.get(key).getType().toString()) {
-			case "string":
+			switch (fieldsMap.get(key).getType()) {
+			case fieldtype.string:
 				element.sendKeys("new " + element.getAttribute("name").toString() + "_"
 						+ Calendar.getInstance().getTimeInMillis());
 				break;
-			case "date":
+			case fieldtype.date:
 				element.sendKeys("" + (1950 + new Random().nextInt(65)));
 				break;
-			case "time":
+			case fieldtype.time:
 				element.sendKeys("" + (60 + new Random().nextInt(60)));
 				break;
-			case "num":
+			case fieldtype.num:
 				element.sendKeys("" + (new Random().nextInt(10)));
 				break;
 			}
@@ -177,11 +188,8 @@ public class Lesson2TestComplect extends TestBase {
 	public void deleteRecord() {
 		// Сохранили число записей до удаления фильма
 		int recordsCount = driver.findElements(By.xpath("//div[@id='results']/a")).size();
-		// Assert.assertEquals(0, recordsCount, "nothin to delete");
-		if (recordsCount == 0) {
-			LOG.warn("nothin to delete");
-			return;
-		}
+		// Если записей нет, выбрасываем исключение и блокируем тест
+		IgnoreTestIfGridIsEmpty();
 
 		// выбираем первую запись в списке
 		WebElement firstRecord = driver.findElement(By.xpath("//div[@id='results']/a/div"));
@@ -200,17 +208,25 @@ public class Lesson2TestComplect extends TestBase {
 		LOG.info("Done");
 	}
 
-	@Test
-	public void testSearchFirstRecord(){
-		// взять название первой записи
-		if(driver.findElements(By.cssSelector(".title")).size() == 0){
-			LOG.warn("grid is empty? nothing to search");
+
+	private void IgnoreTestIfGridIsEmpty(){
+		if(driver.findElements(By.cssSelector(".title")).size() != 0)
 			return;
-		}
+		LOG.warn("grid is empty, test blocked");
+		myAssert.Ignore("grid is empty, test blocked");
+	}
+	
+	// проверка поиска первой из списка записи
+	@Test
+	public void testSearchFirstRecord() throws InterruptedException{
+		IgnoreTestIfGridIsEmpty();
+		// взять название первой записи
 		String firstRecordTitle = driver.findElements(By.cssSelector(".title")).get(0).getText();
 				
 		// ввести название первой записи в поле поиска
-		driver.findElement(By.id("q")).sendKeys(_CLEAR_KEYS);
+		driver.findElement(By.id("q")).sendKeys(Keys.CONTROL + "a");
+		Thread.sleep(200);
+		driver.findElement(By.id("q")).sendKeys(Keys.DELETE);
 		driver.findElement(By.id("q")).sendKeys(firstRecordTitle + Keys.RETURN);
 		WaitUtils.WaitPageIsNotActive(driver);
 		WaitUtils.WaitPageIsActive(driver);
@@ -218,22 +234,19 @@ public class Lesson2TestComplect extends TestBase {
 		Assert.assertNotEquals(driver.findElements(By.cssSelector(".title")).size(),0);
 		// проверить, что первая запись = искомой
 		Assert.assertEquals(driver.findElement(By.cssSelector(".title")).getText(),firstRecordTitle);
-		LOG.info("Done");
 	}
 	
+	// проверка поиска записи, которой, скорее всего нет в базе
 	@Test
-	public void testUnSearchFirstRecord(){
+	public void testUnSearchFirstRecord() throws InterruptedException{
+		IgnoreTestIfGridIsEmpty();
 		// взять название первой записи
-		if(driver.findElements(By.cssSelector(".title")).size() == 0){
-			LOG.warn("grid is empty? nothing to search");
-			return;
-		}
-		String firstRecordTitle = driver.findElements(By.cssSelector(".title")).get(0).getText();
-		
-		String reveseTitle = new StringBuilder(firstRecordTitle).reverse().toString();
-		
+		String reveseTitle = new StringBuilder(driver.findElements(By.cssSelector(".title")).get(0).getText()).reverse().toString();
 		// ввести инвертированное название первой записи в поле поиска
-		driver.findElement(By.id("q")).sendKeys(_CLEAR_KEYS);
+		driver.findElement(By.id("q")).sendKeys(Keys.CONTROL + "a");
+		Thread.sleep(200);
+		driver.findElement(By.id("q")).sendKeys(Keys.DELETE);
+
 		driver.findElement(By.id("q")).sendKeys(reveseTitle + Keys.RETURN);
 		WaitUtils.WaitPageIsNotActive(driver);
 		WaitUtils.WaitPageIsActive(driver);

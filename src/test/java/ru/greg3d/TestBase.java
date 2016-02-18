@@ -32,6 +32,7 @@ public class TestBase {
 	
 	@BeforeSuite
 	public void SuiteSetup() {
+		LOG.error("test");
 		baseUrl = PropertyLoader.loadProperty("site.url");	
 		driver = new TracingWebDriver(BrowserDriver.newDriver()).getWrappedDriver();
 		//driver = BrowserDriver.newDriver();
